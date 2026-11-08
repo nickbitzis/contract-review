@@ -1,0 +1,68 @@
+Master Subscription Agreement
+
+between Galloway Retail Group ("Customer") and Tessavel, Inc. ("Provider")
+
+ARTICLE I - DEFINITIONS
+1.1 "Agreement" means this agreement between Provider and Galloway Retail Group, including all Order Forms.
+1.2 "Fees" means the amounts payable under an Order Form.
+1.3 "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4 "Subscription Term" means the period stated in an Order Form.
+
+ARTICLE II - GOVERNING LAW
+2.1 This Agreement is governed by the laws of the State of California, without regard to its conflict of laws principles. The state and federal courts located in San Francisco County, California have exclusive jurisdiction.
+
+ARTICLE III - EXPORT COMPLIANCE
+3.1 Each party shall comply with applicable export control and sanctions laws.
+
+ARTICLE IV - DATA PROTECTION
+4.1 Provider shall process Galloway Retail Group Personal Data only on Galloway Retail Group's documented instructions.
+4.2 Provider shall notify Galloway Retail Group of any Security Incident within seventy-two (72) hours of becoming aware of it.
+4.3 Galloway Retail Group authorizes Provider to engage subprocessors. Provider will maintain a list of subprocessors and notify Galloway Retail Group of any additions.
+4.4 Provider will provide its most recent SOC 2 Type II report on request, no more than once per year.
+
+ARTICLE V - LIMITATION OF LIABILITY
+5.1 Except for the Excluded Claims, each party's aggregate liability arising out of or relating to this Agreement shall not exceed the fees paid or payable by Galloway Retail Group in the six (6) months preceding the event giving rise to the claim.
+5.2 Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+ARTICLE VI - TERM AND TERMINATION
+6.1 This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+6.2 Either party may terminate this Agreement if the other party commits a material breach and fails to remedy such breach within 15 days of written notice.
+6.3 Neither party may terminate this Agreement for convenience.
+6.4 Upon termination, Galloway Retail Group shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+ARTICLE VII - FORCE MAJEURE
+7.1 Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+ARTICLE VIII - SERVICES
+8.1 Provider will make the Services available to Galloway Retail Group during the Subscription Term in accordance with the Documentation.
+
+ARTICLE IX - PAYMENT
+9.1 Provider will invoice Galloway Retail Group annually in advance for the fees in each Order Form.
+9.2 Galloway Retail Group will remit payment no later than the thirtieth day following the invoice date.
+9.3 Late payments bear interest at 1% per month.
+9.4 Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+ARTICLE X - SUPPORT AND SERVICE LEVELS
+10.1 Provider will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+ARTICLE XI - CONFIDENTIALITY
+11.1 Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+11.2 The obligations in this Section continue for five (5) years after termination of this Agreement.
+
+ARTICLE XII - PUBLICITY
+12.1 Provider may name Galloway Retail Group as a customer with Galloway Retail Group's prior written approval.
+
+ARTICLE XIII - WARRANTIES
+13.1 Provider warrants that the Services will perform materially in accordance with the Documentation for three (3) months after the start of the Subscription Term.
+13.2 THE SERVICES ARE PROVIDED WITHOUT ANY OTHER EXPRESS OR IMPLIED GUARANTEES, INCLUDING SUITABILITY FOR A SPECIFIC USE.
+
+ARTICLE XIV - EXCLUSIONS
+14.1 The limitations in Section 5.1 do not apply to (a) a party's indemnification obligations, (b) breach of confidentiality obligations, or (c) gross negligence or willful misconduct.
+
+ARTICLE XV - THIRD-PARTY CLAIMS
+15.1 Provider will cover Galloway Retail Group's losses from actions brought by outsiders asserting that the Services violate a third party's patent, copyright, or trade secret.
+15.2 The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+ARTICLE XVI - MISCELLANEOUS
+16.1 This Agreement is the entire agreement of the parties on its subject matter.
+16.2 The parties are independent contractors.

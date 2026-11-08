@@ -1,0 +1,60 @@
+SOFTWARE AS A SERVICE AGREEMENT
+
+between Wexley Health Partners ("Customer") and Tessavel, Inc. ("Provider")
+
+Section 1. Definitions
+(a) "Agreement" means this agreement between Provider and Wexley Health Partners, including all Order Forms.
+(b) "Fees" means the amounts payable under an Order Form.
+(c) "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+(d) "Subscription Term" means the period stated in an Order Form.
+
+Section 2. Warranties
+Provider warrants that the Services will perform materially in accordance with the Documentation for three (3) months after the start of the Subscription Term.
+
+Section 3. Insurance
+Provider shall maintain, at its own expense, commercial general liability and cyber liability insurance with limits of not less than $10,000,000 per occurrence.
+
+Section 4. Transfer
+Provider may not assign this Agreement without Wexley Health Partners' prior written consent. Wexley Health Partners may assign this Agreement freely.
+
+Section 5. Disclaimer
+EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, PROVIDER MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+Section 6. Duration
+(a) This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+(b) This Agreement automatically renews for successive one (1) year periods unless either party gives written notice of non-renewal at least sixty (60) days before the end of the then-current term.
+(c) Either party may terminate this Agreement if the other party commits a material breach and fails to remedy such breach within 30 days of written notice.
+(d) Upon termination, Wexley Health Partners shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+Section 7. Support and Service Levels
+Provider will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+Section 8. Notices
+Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+Section 9. Indemnification
+(a) The parties will each protect the other against actions brought by outsiders asserting that the Services violate a third party's patent, copyright, or trade secret.
+(b) The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+Section 10. Payment
+(a) Provider will invoice Wexley Health Partners annually in advance for the fees in each Order Form.
+(b) Amounts invoiced fall due ninety days from the invoice date.
+(c) Overdue amounts accrue interest at the lesser of 0.5% per month or the highest rate permitted by law.
+(d) Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+Section 11. Confidentiality
+(a) Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+(b) The duty of secrecy has no end date.
+
+Section 12. Publicity
+Provider may name Wexley Health Partners as a customer with Wexley Health Partners' prior written approval.
+
+Section 13. Disputes
+Any dispute will be resolved under Ontario law, and the parties consent to venue in Toronto, Ontario.
+
+Section 14. Non-Solicitation
+During the term of this Agreement and for twelve (12) months thereafter, neither party shall solicit for employment any employee of the other party who worked on the Services.
+
+Section 15. Miscellaneous
+(a) This Agreement is the entire agreement of the parties on its subject matter.
+(b) The parties are independent contractors.

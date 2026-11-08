@@ -1,0 +1,34 @@
+DATA PROCESSING AGREEMENT
+
+between Halden Health Partners ("Customer") and Tessavel, Inc. ("Supplier")
+
+1) Definitions
+1.1) "Agreement" means this agreement between Supplier and Halden Health Partners, including all Order Forms.
+1.2) "Fees" means the amounts payable under an Order Form.
+1.3) "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4) "Subscription Term" means the period stated in an Order Form.
+
+2) Subprocessors
+Halden Health Partners has the right to veto a new subprocessor during a thirty (30) day review window.
+
+3) Audit Rights
+Halden Health Partners may review Supplier's compliance records one time every twelve months.
+
+4) Security Incidents
+Supplier shall notify Halden Health Partners of any Security Incident within twelve (12) hours of becoming aware of it.
+
+5) Liability
+Each party's liability under this DPA is subject to the limitations set forth in the Agreement.
+
+6) Confidentiality
+6.1) Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+6.2) The duty of secrecy lasts two years beyond expiry.
+
+7) Scope and Roles
+Halden Health Partners is the controller and Supplier is the processor of Halden Health Partners Personal Data processed under the Agreement.
+
+8) Processing Instructions
+Supplier shall process Halden Health Partners Personal Data only on Halden Health Partners' documented instructions.
+
+9) Return and Deletion
+Within thirty (30) days after termination, Supplier shall delete or return all Halden Health Partners Personal Data.

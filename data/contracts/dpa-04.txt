@@ -1,0 +1,25 @@
+DATA PROCESSING AGREEMENT
+
+between Ashby Manufacturing ("Customer") and Tessavel, Inc. ("Supplier")
+
+1. Definitions. "Agreement" means this agreement between Supplier and Ashby Manufacturing, including all Order Forms.
+1.2. "Fees" means the amounts payable under an Order Form.
+1.3. "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4. "Subscription Term" means the period stated in an Order Form.
+
+2. Audits. Supplier will provide its most recent SOC 2 Type II report on request, no more than once per year.
+
+3. Sub-processing. Ashby Manufacturing has the right to veto a new subprocessor during a thirty (30) day review window.
+
+4. Scope and Roles. Ashby Manufacturing is the controller and Supplier is the processor of Ashby Manufacturing Personal Data processed under the Agreement.
+
+5. Choice of Law. This Agreement is governed by the laws of the State of New York, without regard to its conflict of laws principles. The state and federal courts located in New York County, New York have exclusive jurisdiction.
+
+6. Security Incidents. Supplier shall report a Security Incident to Ashby Manufacturing without undue delay, and in any event no later than 72 hours after discovery.
+
+7. Processing Instructions. Supplier shall process Ashby Manufacturing Personal Data only on Ashby Manufacturing's documented instructions.
+
+8. Confidential Information. Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+8.2. These obligations apply for a period of 5 years from the date of disclosure.
+
+9. Return and Deletion. Within thirty (30) days after termination, Supplier shall delete or return all Ashby Manufacturing Personal Data.

@@ -1,0 +1,74 @@
+MASTER SERVICES AGREEMENT
+
+between Galloway Media ("Customer") and Tessavel, Inc. ("Provider")
+
+Section 1. Definitions
+(a) "Agreement" means this agreement between Provider and Galloway Media, including all Order Forms.
+(b) "Fees" means the amounts payable under an Order Form.
+(c) "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+(d) "Subscription Term" means the period stated in an Order Form.
+(e) "Liability Cap" means an amount equal to the fees paid or payable by Galloway Media in the twelve (12) months before the claim.
+
+Section 2. Export Compliance
+Each party shall comply with applicable export control and sanctions laws.
+
+Section 3. Invoicing and Payment
+(a) Provider will invoice Galloway Media annually in advance for the fees in each Order Form.
+(b) Payment terms are net 60 days from the invoice date.
+(c) Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+Section 4. Publicity
+Provider may name Galloway Media as a customer with Galloway Media's prior written approval.
+
+Section 5. Support and Service Levels
+Provider will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+Section 6. Non-Disclosure
+(a) Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+(b) These obligations survive termination of this Agreement in perpetuity.
+
+Section 7. Force Majeure
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+Section 8. Representations and Warranties
+(a) Provider warrants that the Services will perform materially in accordance with the Documentation for ninety (90) days after the start of the Subscription Term.
+(b) EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, PROVIDER MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+Section 9. Non-Solicitation
+During the term of this Agreement and for twelve (12) months thereafter, neither party shall solicit for employment any employee of the other party who worked on the Services.
+
+Section 10. Duration
+(a) This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+(b) Either party may terminate this Agreement upon written notice if the other party materially breaches it and does not cure the breach within fifteen (15) days after receiving notice of it.
+(c) Galloway Media may terminate this Agreement or any Order Form for convenience on sixty (60) days' prior written notice to Provider.
+(d) Upon termination, Galloway Media shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+Section 11. Governing Law
+This Agreement is governed by the laws of the State of New York, without regard to its conflict of laws principles. The state and federal courts located in New York County, New York have exclusive jurisdiction.
+
+Section 12. Limitation of Liability
+(a) Each party's total liability arising out of this Agreement is limited to the Liability Cap.
+(b) Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+Section 13. Transfer
+Neither party may assign or transfer this Agreement without the prior written consent of the other party.
+
+Section 14. Third-Party Claims
+(a) Provider shall defend and hold harmless Galloway Media and its affiliates, officers, and employees from and against any and all claims, losses, liabilities, and expenses arising out of or relating to this Agreement or the Services, and shall pay all damages and costs finally awarded.
+(b) The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+Section 15. Automatic Renewal
+Unless cancelled in writing 45 days ahead of the anniversary date, the subscription rolls over for another year.
+
+Section 16. Exclusions
+The limitations in Section 12 do not apply to (a) a party's indemnification obligations, (b) breach of confidentiality obligations, or (c) gross negligence or willful misconduct.
+
+Section 17. Data Protection
+(a) Provider shall process Galloway Media Personal Data only on Galloway Media's documented instructions.
+(b) Provider will tell Galloway Media about any confirmed data breach within 48 hours.
+(c) Galloway Media has the right to veto a new subprocessor during a thirty (30) day review window.
+(d) Galloway Media or its auditors may inspect Provider's facilities, systems, and records on-site as often as Galloway Media deems necessary.
+
+Section 18. Miscellaneous
+(a) This Agreement is the entire agreement of the parties on its subject matter.
+(b) The parties are independent contractors.

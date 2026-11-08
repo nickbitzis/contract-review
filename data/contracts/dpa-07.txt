@@ -1,0 +1,34 @@
+DATA PROCESSING AGREEMENT
+
+between Halden Logistics ("Customer") and Tessavel, Inc. ("Supplier")
+
+1. Definitions
+1.1 "Agreement" means this agreement between Supplier and Halden Logistics, including all Order Forms.
+1.2 "Fees" means the amounts payable under an Order Form.
+1.3 "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4 "Subscription Term" means the period stated in an Order Form.
+
+2. Sub-processing
+Supplier will notify Halden Logistics at least thirty (30) days before engaging a new subprocessor, and Halden Logistics may object on reasonable data protection grounds.
+
+3. Processing Instructions
+Supplier shall process Halden Logistics Personal Data only on Halden Logistics' documented instructions.
+
+4. Return and Deletion
+Within thirty (30) days after termination, Supplier shall delete or return all Halden Logistics Personal Data.
+
+5. Confidential Information
+5.1 Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+5.2 The obligations in this Section continue for three (3) years after termination of this Agreement.
+
+6. Breach Notification
+Supplier shall report a Security Incident to Halden Logistics without undue delay, and in any event no later than 12 hours after discovery.
+
+7. Audits
+Halden Logistics or its auditors may inspect Supplier's facilities, systems, and records on-site as often as Halden Logistics deems necessary.
+
+8. Disputes
+This Agreement is governed by the laws of the State of California, without regard to its conflict of laws principles. The state and federal courts located in San Francisco County, California have exclusive jurisdiction.
+
+10. Scope and Roles
+Halden Logistics is the controller and Supplier is the processor of Halden Logistics Personal Data processed under the Agreement.

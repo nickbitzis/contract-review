@@ -1,0 +1,30 @@
+Data Processing Addendum
+
+between Stillwater Media ("Customer") and Tessavel, Inc. ("Vendor")
+
+Section 1. Definitions
+(a) "Agreement" means this agreement between Vendor and Stillwater Media, including all Order Forms.
+(b) "Fees" means the amounts payable under an Order Form.
+(c) "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+(d) "Subscription Term" means the period stated in an Order Form.
+
+Section 2. Scope and Roles
+Stillwater Media is the controller and Vendor is the processor of Stillwater Media Personal Data processed under the Agreement.
+
+Section 3. Processing Instructions
+Vendor shall process Stillwater Media Personal Data only on Stillwater Media's documented instructions.
+
+Section 4. Subprocessors
+Vendor will notify Stillwater Media at least thirty (30) days before engaging a new subprocessor, and Stillwater Media may object on reasonable data protection grounds.
+
+Section 5. Breach Notification
+Vendor shall notify Stillwater Media of any Security Incident within one (1) business day of becoming aware of it.
+
+Section 6. Liability
+Each party's liability under this DPA is subject to the limitations set forth in the Agreement.
+
+Section 7. Return and Deletion
+Within thirty (30) days after termination, Vendor shall delete or return all Stillwater Media Personal Data.
+
+Section 8. Compliance Verification
+Vendor will provide its most recent SOC 2 Type II report on request, no more than once per year.

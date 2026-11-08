@@ -1,0 +1,67 @@
+Master Subscription Agreement
+
+between Stillwater Hospitality ("Customer") and Tessavel, Inc. ("Supplier")
+
+Section 1. Definitions
+(a) "Agreement" means this agreement between Supplier and Stillwater Hospitality, including all Order Forms.
+(b) "Fees" means the amounts payable under an Order Form.
+(c) "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+(d) "Subscription Term" means the period stated in an Order Form.
+(e) "Liability Cap" means an amount equal to the fees paid or payable by Stillwater Hospitality in the twelve (12) months before the claim.
+
+Section 2. Insurance
+Supplier shall maintain, at its own expense, commercial general liability and cyber liability insurance with limits of not less than $2 million per occurrence.
+
+Section 3. Confidentiality
+(a) Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+(b) The obligations in this Section continue for five (5) years after termination of this Agreement.
+
+Section 4. Employees
+Supplier shall not hire or attempt to hire any Stillwater Hospitality employee for 18 months after termination of this Agreement.
+
+Section 5. Export Compliance
+Each party shall comply with applicable export control and sanctions laws.
+
+Section 6. Support and Service Levels
+Supplier will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+Section 7. Term and Termination
+(a) This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+(b) This Agreement automatically renews for successive one (1) year periods unless either party gives written notice of non-renewal at least thirty (30) days before the end of the then-current term.
+(c) If one party seriously fails to perform and has not corrected the failure within 30 days after being told about it, the other party may end this Agreement.
+(d) Neither party may terminate this Agreement for convenience.
+(e) Upon termination, Stillwater Hospitality shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+Section 8. Transfer
+Stillwater Hospitality may transfer this Agreement to any affiliate or successor. Supplier may not transfer it without Stillwater Hospitality's approval.
+
+Section 9. Limitation of Liability
+(a) Liability of each party is restricted to 100% of the Fees for the then-current year.
+(b) Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+Section 10. Indemnification
+(a) Supplier shall defend, indemnify, and hold harmless Stillwater Hospitality and its affiliates, officers, and employees from and against any third-party claim alleging that the Services infringe or misappropriate any patent, copyright, trademark, or trade secret, and shall pay all damages and costs finally awarded.
+(b) The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+Section 11. Disputes
+This Agreement is governed by the laws of the State of California, without regard to its conflict of laws principles. The state and federal courts located in San Francisco County, California have exclusive jurisdiction.
+
+Section 12. Warranties
+(a) Supplier warrants that the Services will perform materially in accordance with the Documentation for one hundred eighty (180) days after the start of the Subscription Term.
+(b) EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, SUPPLIER MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+Section 13. Force Majeure
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+Section 14. Publicity
+Supplier may name Stillwater Hospitality as a customer with Stillwater Hospitality's prior written approval.
+
+Section 15. Invoicing and Payment
+(a) Supplier will invoice Stillwater Hospitality annually in advance for the fees in each Order Form.
+(b) Stillwater Hospitality shall pay all undisputed invoices within sixty (60) days of receipt.
+(c) Overdue amounts accrue interest at the lesser of 1.5% per month or the highest rate permitted by law.
+(d) Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+Section 16. Miscellaneous
+(a) This Agreement is the entire agreement of the parties on its subject matter.
+(b) The parties are independent contractors.

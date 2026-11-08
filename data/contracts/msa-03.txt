@@ -1,0 +1,64 @@
+SOFTWARE AS A SERVICE AGREEMENT
+
+between Quarry Insurance ("Customer") and Tessavel, Inc. ("Provider")
+
+ARTICLE I - DEFINITIONS
+1.1 "Agreement" means this agreement between Provider and Quarry Insurance, including all Order Forms.
+1.2 "Fees" means the amounts payable under an Order Form.
+1.3 "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4 "Subscription Term" means the period stated in an Order Form.
+
+ARTICLE II - FEES AND PAYMENT
+2.1 Provider will invoice Quarry Insurance annually in advance for the fees in each Order Form.
+2.2 Amounts invoiced fall due thirty days from the invoice date.
+2.3 Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+ARTICLE III - PUBLICITY
+3.1 Provider may name Quarry Insurance as a customer with Quarry Insurance's prior written approval.
+
+ARTICLE IV - DURATION
+4.1 This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+4.2 Either party may terminate this Agreement if the other party commits a material breach and fails to remedy such breach within 30 days of written notice.
+4.3 Quarry Insurance may end this Agreement without cause on one hundred twenty (120) days' notice.
+4.4 Upon termination, Quarry Insurance shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+ARTICLE V - SUPPORT AND SERVICE LEVELS
+5.1 Provider will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+ARTICLE VI - EXPORT COMPLIANCE
+6.1 Each party shall comply with applicable export control and sanctions laws.
+
+ARTICLE VII - INDEMNITY
+7.1 The parties will each protect the other against actions brought by outsiders connected in any way with the Services.
+7.2 The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+ARTICLE VIII - LIMITATION OF LIABILITY
+8.1 Except for the Excluded Claims, each party's aggregate liability arising out of or relating to this Agreement shall not exceed the fees paid or payable by Quarry Insurance in the six (6) months preceding the event giving rise to the claim.
+8.2 Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+ARTICLE IX - FORCE MAJEURE
+9.1 Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+ARTICLE X - CONFIDENTIALITY
+10.1 Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+10.2 The obligations in this Section continue for three (3) years after termination of this Agreement.
+
+ARTICLE XI - SERVICES
+11.1 Provider will make the Services available to Quarry Insurance during the Subscription Term in accordance with the Documentation.
+
+ARTICLE XII - INSURANCE
+12.1 Provider shall maintain, at its own expense, commercial general liability and cyber liability insurance with limits of not less than USD 2,000,000 per occurrence.
+
+ARTICLE XIII - ASSIGNMENT
+13.1 Neither party may assign or transfer this Agreement without the prior written consent of the other party.
+
+ARTICLE XIV - DISPUTES
+14.1 This Agreement is governed by the laws of the State of New York, without regard to its conflict of laws principles. The state and federal courts located in New York County, New York have exclusive jurisdiction.
+
+ARTICLE XV - REPRESENTATIONS AND WARRANTIES
+15.1 Provider warrants that the Services will perform materially in accordance with the Documentation for ninety (90) days after the start of the Subscription Term.
+15.2 EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, PROVIDER MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+ARTICLE XVI - MISCELLANEOUS
+16.1 This Agreement is the entire agreement of the parties on its subject matter.
+16.2 The parties are independent contractors.

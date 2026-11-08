@@ -1,0 +1,19 @@
+ORDER FORM
+
+between Yarrow Foods ("Customer") and Tessavel, Inc. ("Vendor")
+Customer: Yarrow Foods
+Order Number: OF-2026-106
+Subscription Term: twelve (12) months from the Order Start Date
+Payment Terms: Net 30
+Renewal: Automatic, 30 days notice of non-renewal
+Governing Agreement: Tessavel Master Subscription Agreement
+
+1. Fees and Payment
+1.1 Vendor will invoice Yarrow Foods annually in advance for the fees in each Order Form.
+1.2 Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+2. Insurance
+Vendor shall maintain, at its own expense, commercial general liability and cyber liability insurance with limits of not less than $5,000,000 per occurrence.
+
+3. Non-Solicitation
+During the term of this Agreement and for twelve (12) months thereafter, neither party shall solicit for employment any employee of the other party who worked on the Services.

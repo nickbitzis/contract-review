@@ -1,0 +1,34 @@
+DATA PROCESSING AGREEMENT
+
+between Fenwick Manufacturing ("Customer") and Tessavel, Inc. ("Provider")
+
+ARTICLE I - DEFINITIONS
+1.1 "Agreement" means this agreement between Provider and Fenwick Manufacturing, including all Order Forms.
+1.2 "Fees" means the amounts payable under an Order Form.
+1.3 "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4 "Subscription Term" means the period stated in an Order Form.
+
+ARTICLE II - PROCESSING INSTRUCTIONS
+2.1 Provider shall process Fenwick Manufacturing Personal Data only on Fenwick Manufacturing's documented instructions.
+
+ARTICLE III - RETURN AND DELETION
+3.1 Within thirty (30) days after termination, Provider shall delete or return all Fenwick Manufacturing Personal Data.
+
+ARTICLE IV - DISPUTES
+4.1 This Agreement is governed by the laws of the State of Delaware, without regard to its conflict of laws principles. The state and federal courts located in Wilmington, Delaware have exclusive jurisdiction.
+
+ARTICLE V - BREACH NOTIFICATION
+5.1 Notification of a Security Incident is due no later than twenty-four hours after Provider learns of it.
+
+ARTICLE VI - CONFIDENTIALITY
+6.1 Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+6.2 These obligations apply for a period of 5 years from the date of disclosure.
+
+ARTICLE VII - SUB-PROCESSING
+7.1 Provider needs Fenwick Manufacturing's written sign-off before any new subprocessor touches Fenwick Manufacturing data.
+
+ARTICLE VIII - COMPLIANCE VERIFICATION
+8.1 In place of audits, Provider will share third-party attestation reports, such as ISO 27001 certificates.
+
+ARTICLE IX - SCOPE AND ROLES
+9.1 Fenwick Manufacturing is the controller and Provider is the processor of Fenwick Manufacturing Personal Data processed under the Agreement.

@@ -1,0 +1,34 @@
+Data Processing Addendum
+
+between Ashby Capital ("Customer") and Tessavel, Inc. ("Vendor")
+
+1. Definitions
+1.1 "Agreement" means this agreement between Vendor and Ashby Capital, including all Order Forms.
+1.2 "Fees" means the amounts payable under an Order Form.
+1.3 "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4 "Subscription Term" means the period stated in an Order Form.
+
+2. Return and Deletion
+Within thirty (30) days after termination, Vendor shall delete or return all Ashby Capital Personal Data.
+
+3. Non-Disclosure
+3.1 Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+3.2 These obligations continue indefinitely.
+
+5. Compliance Verification
+Vendor will provide its most recent SOC 2 Type II report on request, no more than once per year.
+
+7. Governing Law
+This Agreement is governed by the laws of the State of California, without regard to its conflict of laws principles. The state and federal courts located in San Francisco County, California have exclusive jurisdiction.
+
+8. Scope and Roles
+Ashby Capital is the controller and Vendor is the processor of Ashby Capital Personal Data processed under the Agreement.
+
+9. Security Incidents
+Notification of a Security Incident is due no later than forty-eight hours after Vendor learns of it.
+
+10. Sub-processing
+Ashby Capital has the right to veto a new subprocessor during a thirty (30) day review window.
+
+11. Processing Instructions
+Vendor shall process Ashby Capital Personal Data only on Ashby Capital's documented instructions.

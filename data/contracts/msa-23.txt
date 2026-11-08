@@ -1,0 +1,65 @@
+MASTER SERVICES AGREEMENT
+
+between Ivers Energy ("Customer") and Tessavel, Inc. ("Provider")
+
+DEFINITIONS
+"Agreement" means this agreement between Provider and Ivers Energy, including all Order Forms.
+"Fees" means the amounts payable under an Order Form.
+"Security Incident" means unauthorized access to Customer Personal Data in the Services.
+"Subscription Term" means the period stated in an Order Form.
+
+PUBLICITY
+Provider may name Ivers Energy as a customer with Ivers Energy's prior written approval.
+
+INVOICING AND PAYMENT
+Provider will invoice Ivers Energy annually in advance for the fees in each Order Form.
+Ivers Energy has 60 calendar days to settle each invoice.
+Unpaid balances carry a monthly finance charge of 1.5 percent.
+Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+FORCE MAJEURE
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+DURATION
+This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+Unless cancelled in writing 30 days ahead of the anniversary date, the subscription rolls over for another year.
+If one party seriously fails to perform and has not corrected the failure within 30 days after being told about it, the other party may end this Agreement.
+Upon termination, Ivers Energy shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+TERMINATION FOR CONVENIENCE
+Ivers Energy may terminate this Agreement or any Order Form for convenience on thirty (30) days' prior written notice to Provider.
+
+SERVICES
+Provider will make the Services available to Ivers Energy during the Subscription Term in accordance with the Documentation.
+
+WARRANTIES
+Provider warrants that the Services will perform materially in accordance with the Documentation for twelve (12) months after the start of the Subscription Term.
+Provider further warrants that the Services are fit for Ivers Energy's intended purpose.
+
+THIRD-PARTY CLAIMS
+Each party (the "Indemnifying Party") shall defend, indemnify, and hold harmless the other party from and against any third-party claim alleging that the Services infringe or misappropriate any patent, copyright, trademark, or trade secret, and shall pay all damages and costs finally awarded.
+The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+LIMITATION OF LIABILITY
+In no event will either party's total liability under this Agreement exceed three times (3x) the annual fees payable under this Agreement.
+Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+EXCLUSIONS
+The limitations in Section 10 do not apply to (a) a party's indemnification obligations, (b) breach of confidentiality obligations, or (c) gross negligence or willful misconduct, or (d) Provider's breach of its data protection or security obligations.
+
+EXPORT COMPLIANCE
+Each party shall comply with applicable export control and sanctions laws.
+
+SUPPORT AND SERVICE LEVELS
+Provider will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+CONFIDENTIAL INFORMATION
+Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+These obligations apply for a period of 2 years from the date of disclosure.
+
+DISPUTES
+The substantive law of Delaware applies to this Agreement.
+
+MISCELLANEOUS
+This Agreement is the entire agreement of the parties on its subject matter.
+The parties are independent contractors.

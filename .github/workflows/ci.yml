@@ -1,0 +1,49 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Lint
+        run: uvx ruff check .
+      - name: Test
+        run: uv run --python 3.12 --group dev pytest -q
+
+  eval:
+    # Runs the pipeline over the 40 labeled contracts. Fails the build if recall on high-severity deviations
+    # (including missing clauses) drops below 80% for the offline baseline.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Eval gate
+        run: |
+          uv run --python 3.12 contractreview eval --compare --gate --min-high-recall 0.8 \
+            --summary "$GITHUB_STEP_SUMMARY" --out reports/eval.json
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-report
+          path: reports/eval.json
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t contract-review:ci .
+      - name: Smoke test container
+        run: |
+          docker run -d --name cr -p 8828:8828 contract-review:ci
+          for i in $(seq 1 20); do curl -sf http://localhost:8828/healthz && break; sleep 1; done
+          curl -sf -X POST http://localhost:8828/api/contracts/sample/msa-04 | grep risk_score
+          curl -sf http://localhost:8828/metrics | grep contractreview_contracts_analyzed_total
+          docker rm -f cr

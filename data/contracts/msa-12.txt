@@ -1,0 +1,64 @@
+Master Subscription Agreement
+
+between Larkspur Media ("Customer") and Tessavel, Inc. ("Vendor")
+
+1) Definitions
+1.1) "Agreement" means this agreement between Vendor and Larkspur Media, including all Order Forms.
+1.2) "Fees" means the amounts payable under an Order Form.
+1.3) "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4) "Subscription Term" means the period stated in an Order Form.
+
+2) Export Compliance
+Each party shall comply with applicable export control and sanctions laws.
+
+3) Warranties
+3.1) Vendor warrants that the Services will perform materially in accordance with the Documentation for six (6) months after the start of the Subscription Term.
+3.2) Vendor further warrants that the Services are fit for Larkspur Media's intended purpose.
+
+4) Automatic Renewal
+The Subscription Term will not renew automatically. Any renewal requires a new Order Form signed by both parties.
+
+5) Services
+Vendor will make the Services available to Larkspur Media during the Subscription Term in accordance with the Documentation.
+
+6) Publicity
+Vendor may name Larkspur Media as a customer with Larkspur Media's prior written approval.
+
+7) Confidential Information
+7.1) Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+7.2) These obligations continue indefinitely.
+
+8) Non-Solicitation
+During the term of this Agreement and for twelve (12) months thereafter, neither party shall solicit for employment any employee of the other party who worked on the Services.
+
+9) Force Majeure
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+10) Duration
+10.1) This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+10.2) If one party seriously fails to perform and has not corrected the failure within 15 days after being told about it, the other party may end this Agreement.
+10.3) Neither party may terminate this Agreement for convenience.
+10.4) Upon termination, Larkspur Media shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+11) Indemnification
+11.1) Each party (the "Indemnifying Party") shall defend, indemnify, and hold harmless the other party from and against any third-party claim alleging that the Services infringe or misappropriate any intellectual property right, or arising from a breach of the data protection obligations in this Agreement, and shall pay all damages and costs finally awarded.
+11.2) The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+12) Notices
+Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+13) Fees and Payment
+13.1) Vendor will invoice Larkspur Media annually in advance for the fees in each Order Form.
+13.2) Larkspur Media shall pay all undisputed invoices within sixty (60) days of receipt.
+13.3) Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+14) Assignment
+Larkspur Media may transfer this Agreement to any affiliate or successor. Vendor may not transfer it without Larkspur Media's approval.
+
+15) Insurance
+Vendor shall maintain, at its own expense, commercial general liability and cyber liability insurance with limits of not less than $1,000,000 per occurrence.
+
+16) Miscellaneous
+16.1) This Agreement is the entire agreement of the parties on its subject matter.
+16.2) This Agreement is governed by the laws of the State of Delaware, without regard to its conflict of laws principles. The state and federal courts located in Wilmington, Delaware have exclusive jurisdiction.
+16.3) The parties are independent contractors.

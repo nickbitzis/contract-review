@@ -1,0 +1,74 @@
+MASTER SERVICES AGREEMENT
+
+between Corrin Health Partners ("Customer") and Tessavel, Inc. ("Supplier")
+
+1) Definitions
+1.1) "Agreement" means this agreement between Supplier and Corrin Health Partners, including all Order Forms.
+1.2) "Fees" means the amounts payable under an Order Form.
+1.3) "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4) "Subscription Term" means the period stated in an Order Form.
+
+2) Performance Warranty
+2.1) Supplier warrants that the Services will perform materially in accordance with the Documentation for ninety (90) days after the start of the Subscription Term.
+2.2) EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, SUPPLIER MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+3) Confidentiality
+3.1) Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+3.2) The duty of secrecy lasts three years beyond expiry.
+
+4) Force Majeure
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+5) Fees and Payment
+5.1) Supplier will invoice Corrin Health Partners annually in advance for the fees in each Order Form.
+5.2) Corrin Health Partners will remit payment no later than the forty-fifth day following the invoice date.
+5.3) Late payments bear interest at 1% per month.
+5.4) Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+6) Third-Party Claims
+6.1) Supplier shall defend, indemnify, and hold harmless Corrin Health Partners and its affiliates, officers, and employees from and against any third-party claim alleging that the Services infringe or misappropriate any intellectual property right, or arising from a breach of the data protection obligations in this Agreement, and shall pay all damages and costs finally awarded.
+6.2) The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+7) Disputes
+This Agreement is governed by the laws of the State of New York, without regard to its conflict of laws principles. The state and federal courts located in New York County, New York have exclusive jurisdiction.
+
+8) Non-Solicitation
+During the term of this Agreement and for twelve (12) months thereafter, neither party shall solicit for employment any employee of the other party who worked on the Services.
+
+9) Support and Service Levels
+Supplier will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+10) Data Protection
+10.1) Supplier shall process Corrin Health Partners Personal Data only on Corrin Health Partners' documented instructions.
+10.2) Notification of a Security Incident is due no later than forty-eight hours after Supplier learns of it.
+10.3) Corrin Health Partners authorizes Supplier to engage subprocessors. Supplier will maintain a list of subprocessors and notify Corrin Health Partners of any additions.
+10.4) Corrin Health Partners may send its own staff to examine Supplier's data centers without limit.
+
+11) Publicity
+Supplier may name Corrin Health Partners as a customer with Corrin Health Partners' prior written approval.
+
+12) Notices
+Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+13) Limitation of Liability
+13.1) Liability of each party is restricted to 200% of the Fees for the then-current year.
+13.2) Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+14) Insurance
+Supplier shall maintain, at its own expense, commercial general liability and cyber liability insurance with limits of not less than $10 million per occurrence.
+
+15) Export Compliance
+Each party shall comply with applicable export control and sanctions laws.
+
+16) Services
+Supplier will make the Services available to Corrin Health Partners during the Subscription Term in accordance with the Documentation.
+
+17) Termination
+17.1) This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+17.2) Each Subscription Term will renew for an additional twelve (12) months unless a party notifies the other of its intent not to renew no later than 30 days prior to expiration.
+17.3) Either party may terminate this Agreement if the other party commits a material breach and fails to remedy such breach within 30 days of written notice.
+17.4) Upon termination, Corrin Health Partners shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+18) Miscellaneous
+18.1) This Agreement is the entire agreement of the parties on its subject matter.
+18.2) The parties are independent contractors.

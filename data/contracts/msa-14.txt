@@ -1,0 +1,68 @@
+MASTER SERVICES AGREEMENT
+
+between Fenwick Logistics ("Customer") and Tessavel, Inc. ("Supplier")
+
+Section 1. Definitions
+(a) "Agreement" means this agreement between Supplier and Fenwick Logistics, including all Order Forms.
+(b) "Fees" means the amounts payable under an Order Form.
+(c) "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+(d) "Subscription Term" means the period stated in an Order Form.
+(e) "Liability Cap" means an amount equal to the fees paid or payable by Fenwick Logistics in the twelve (12) months before the claim.
+
+Section 2. Automatic Renewal
+Each Subscription Term will renew for an additional twelve (12) months unless a party notifies the other of its intent not to renew no later than 45 days prior to expiration.
+
+Section 3. Disclaimer
+EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, SUPPLIER MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+Section 4. Confidentiality
+(a) Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+(b) These obligations continue indefinitely.
+
+Section 5. Choice of Law
+Any dispute will be resolved under New York law, and the parties consent to venue in New York County, New York.
+
+Section 6. Duration
+(a) This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+(b) Either party may terminate this Agreement upon written notice if the other party materially breaches it and does not cure the breach within thirty (30) days after receiving notice of it.
+(c) Neither party may terminate this Agreement for convenience.
+(d) Upon termination, Fenwick Logistics shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+Section 7. Data Protection
+(a) Supplier shall process Fenwick Logistics Personal Data only on Fenwick Logistics' documented instructions.
+(b) Supplier shall notify Fenwick Logistics of any Security Incident within seventy-two (72) hours of becoming aware of it.
+(c) Fenwick Logistics authorizes Supplier to engage subprocessors. Supplier will maintain a list of subprocessors and notify Fenwick Logistics of any additions.
+(d) Fenwick Logistics or its auditors may inspect Supplier's facilities, systems, and records on-site as often as Fenwick Logistics deems necessary.
+
+Section 8. Invoicing and Payment
+(a) Supplier will invoice Fenwick Logistics annually in advance for the fees in each Order Form.
+(b) Fenwick Logistics has 60 calendar days to settle each invoice.
+(c) Overdue amounts accrue interest at the lesser of 0.5% per month or the highest rate permitted by law.
+(d) Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+Section 9. Export Compliance
+Each party shall comply with applicable export control and sanctions laws.
+
+Section 10. Limitation of Liability
+(a) Liability of each party is restricted to 100% of the Fees for the then-current year.
+(b) Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+Section 11. Indemnity
+(a) Each party (the "Indemnifying Party") shall defend, indemnify, and hold harmless the other party from and against any and all claims, losses, liabilities, and expenses arising out of or relating to this Agreement or the Services, and shall pay all damages and costs finally awarded.
+(b) The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+Section 12. Notices
+Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+Section 13. Publicity
+Supplier may name Fenwick Logistics as a customer with Fenwick Logistics' prior written approval.
+
+Section 14. Representations and Warranties
+Supplier stands behind the Services for three months: if they do not work as documented, Supplier will fix them.
+
+Section 15. Assignment
+Neither party may assign or transfer this Agreement without the prior written consent of the other party.
+
+Section 16. Miscellaneous
+(a) This Agreement is the entire agreement of the parties on its subject matter.
+(b) The parties are independent contractors.

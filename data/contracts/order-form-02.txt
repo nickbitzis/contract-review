@@ -1,0 +1,21 @@
+ORDER FORM
+
+between Northam Media ("Customer") and Tessavel, Inc. ("Supplier")
+Customer: Northam Media
+Order Number: OF-2026-101
+Subscription Term: twelve (12) months from the Order Start Date
+Payment Terms: Net 45
+Governing Agreement: Tessavel Master Subscription Agreement
+
+1. Invoicing and Payment
+1.1 Supplier will invoice Northam Media annually in advance for the fees in each Order Form.
+1.2 Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+3. Renewal
+This Agreement automatically renews for successive one (1) year periods unless either party gives written notice of non-renewal at least sixty (60) days before the end of the then-current term.
+
+4. Insurance
+Supplier shall maintain, at its own expense, commercial general liability and cyber liability insurance with limits of not less than $1 million per occurrence.
+
+5. Employees
+During the term of this Agreement and for thirty-six (36) months thereafter, neither party shall solicit for employment any employee of the other party who worked on the Services.

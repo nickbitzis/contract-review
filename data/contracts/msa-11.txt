@@ -1,0 +1,72 @@
+MASTER SERVICES AGREEMENT
+
+between Stillwater Capital ("Customer") and Tessavel, Inc. ("Supplier")
+
+DEFINITIONS
+"Agreement" means this agreement between Supplier and Stillwater Capital, including all Order Forms.
+"Fees" means the amounts payable under an Order Form.
+"Security Incident" means unauthorized access to Customer Personal Data in the Services.
+"Subscription Term" means the period stated in an Order Form.
+
+AUTOMATIC RENEWAL
+Unless cancelled in writing 90 days ahead of the anniversary date, the subscription rolls over for another year.
+
+EXCLUSIONS
+The limitations in Section 8 do not apply to (a) a party's indemnification obligations, (b) breach of confidentiality obligations, or (c) gross negligence or willful misconduct.
+
+NOTICES
+Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+DURATION
+This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+Either party may terminate this Agreement if the other party commits a material breach and fails to remedy such breach within 30 days of written notice.
+Stillwater Capital may terminate this Agreement at any time, for any reason or no reason, by giving Supplier at least 30 days written notice.
+Upon termination, Stillwater Capital shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+SUPPORT AND SERVICE LEVELS
+Supplier will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+EXPORT COMPLIANCE
+Each party shall comply with applicable export control and sanctions laws.
+
+LIMITATION OF LIABILITY
+Except for the Excluded Claims, each party's aggregate liability arising out of or relating to this Agreement shall not exceed the fees paid or payable by Stillwater Capital in the twenty-four (24) months preceding the event giving rise to the claim.
+Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+ASSIGNMENT
+No party may transfer its rights or duties under this Agreement without written approval, though either party may do so to an entity that acquires its business.
+
+FORCE MAJEURE
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+INDEMNIFICATION
+Supplier shall defend, indemnify, and hold harmless Stillwater Capital and its affiliates, officers, and employees from and against any third-party claim alleging that the Services infringe or misappropriate any patent, copyright, trademark, or trade secret, and shall pay all damages and costs finally awarded.
+The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+WARRANTIES
+Supplier stands behind the Services for three months: if they do not work as documented, Supplier will fix them.
+EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, SUPPLIER MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+SERVICES
+Supplier will make the Services available to Stillwater Capital during the Subscription Term in accordance with the Documentation.
+
+DATA PROTECTION
+Supplier shall process Stillwater Capital Personal Data only on Stillwater Capital's documented instructions.
+Supplier shall notify Stillwater Capital of any Security Incident within seventy-two (72) hours of becoming aware of it.
+Stillwater Capital authorizes Supplier to engage subprocessors. Supplier will maintain a list of subprocessors and notify Stillwater Capital of any additions.
+In place of audits, Supplier will share third-party attestation reports, such as ISO 27001 certificates.
+
+PAYMENT
+Supplier will invoice Stillwater Capital annually in advance for the fees in each Order Form.
+Stillwater Capital shall pay all undisputed invoices within thirty (30) days of receipt.
+No late fees, interest, or penalties shall apply to any payment.
+Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+NON-DISCLOSURE
+Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+The duty of secrecy lasts three years beyond expiry.
+
+MISCELLANEOUS
+This Agreement is the entire agreement of the parties on its subject matter.
+This Agreement is governed by the laws of the Province of Ontario and the federal laws of Canada applicable there.
+The parties are independent contractors.

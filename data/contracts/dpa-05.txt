@@ -1,0 +1,34 @@
+DATA PROCESSING AGREEMENT
+
+between Yarrow Logistics ("Customer") and Tessavel, Inc. ("Supplier")
+
+DEFINITIONS
+"Agreement" means this agreement between Supplier and Yarrow Logistics, including all Order Forms.
+"Fees" means the amounts payable under an Order Form.
+"Security Incident" means unauthorized access to Customer Personal Data in the Services.
+"Subscription Term" means the period stated in an Order Form.
+
+NON-DISCLOSURE
+Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+The obligations in this Section continue for five (5) years after termination of this Agreement.
+
+SUB-PROCESSING
+Supplier shall not engage any subprocessor without Yarrow Logistics' prior written consent.
+
+RETURN AND DELETION
+Within thirty (30) days after termination, Supplier shall delete or return all Yarrow Logistics Personal Data.
+
+COMPLIANCE VERIFICATION
+Yarrow Logistics or its auditors may inspect Supplier's facilities, systems, and records on-site as often as Yarrow Logistics deems necessary.
+
+PROCESSING INSTRUCTIONS
+Supplier shall process Yarrow Logistics Personal Data only on Yarrow Logistics' documented instructions.
+
+GOVERNING LAW
+This Agreement is governed by the laws of the State of Illinois, without regard to its conflict of laws principles. The state and federal courts located in Cook County, Illinois have exclusive jurisdiction.
+
+SCOPE AND ROLES
+Yarrow Logistics is the controller and Supplier is the processor of Yarrow Logistics Personal Data processed under the Agreement.
+
+SECURITY INCIDENTS
+Supplier shall notify Yarrow Logistics of any Security Incident without undue delay after becoming aware of it.

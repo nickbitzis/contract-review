@@ -1,0 +1,405 @@
+# Tessavel commercial negotiation playbook (synthetic). Tessavel is a made-up B2B SaaS vendor.
+#
+# Each clause type lists the documents it is required in, how bad it is when it is missing, and checks on the
+# parameters the extractor pulls out. Check kinds:
+#   max   lower is better for Tessavel: <= preferred ok, <= fallback low, <= walkaway medium, above walkaway high
+#   min   higher is better: >= preferred ok, >= fallback low, >= walkaway medium, below walkaway high
+#   enum  value in preferred ok, in fallback low, in walkaway high, anything else `otherwise`
+#   flag  value equal to `bad` gets `severity`
+# Inside fallback is a low issue the deal team can accept. Outside fallback (medium or high) needs the approvers.
+# A high issue also escalates to legal.
+
+vendor: Tessavel
+approver_groups:
+  legal: Commercial Legal
+  finance: Deal Desk (Finance)
+  security: Security and Privacy
+escalation:
+  high: [legal]
+
+clauses:
+  limitation_of_liability:
+    label: Limitation of liability
+    required_in: [msa]
+    missing_severity: high
+    missing_approvers: [legal, finance]
+    missing_reason: The contract has no limitation of liability, so Tessavel's exposure is uncapped.
+    model_clause: >-
+      Except for the Excluded Claims, each party's total aggregate liability arising out of or related to this
+      Agreement shall not exceed the fees paid or payable by Customer in the twelve (12) months preceding the event
+      giving rise to the claim. Neither party is liable for indirect, consequential, or punitive damages.
+    checks:
+      - param: cap_multiple
+        kind: max
+        preferred: 1.0
+        fallback: 2.0
+        walkaway: 3.0
+        approvers: [finance, legal]
+        positions:
+          preferred: Cap at 12 months of fees (1x).
+          fallback: Up to 24 months of fees (2x).
+          walkaway: More than 36 months of fees (3x).
+        redline: >-
+          Each party's total aggregate liability arising out of or related to this Agreement shall not exceed the
+          fees paid or payable by Customer in the twelve (12) months preceding the event giving rise to the claim.
+      - param: uncapped
+        kind: flag
+        bad: true
+        severity: high
+        approvers: [legal, finance]
+        positions:
+          preferred: Liability is capped for both parties.
+          walkaway: Uncapped liability for Tessavel.
+        redline: >-
+          Each party's total aggregate liability arising out of or related to this Agreement shall not exceed the
+          fees paid or payable by Customer in the twelve (12) months preceding the event giving rise to the claim.
+      - param: data_breach_carveout
+        kind: flag
+        bad: true
+        severity: medium
+        approvers: [security, legal]
+        positions:
+          preferred: Data protection claims sit under the general cap.
+          fallback: A separate super cap of 2x fees for data protection claims.
+        redline: >-
+          Claims arising from a party's breach of its data protection obligations are subject to a separate
+          aggregate cap equal to two (2) times the fees paid or payable in the twelve (12) months preceding the claim.
+
+  indemnification:
+    label: Indemnification
+    required_in: [msa]
+    missing_severity: medium
+    missing_approvers: [legal]
+    missing_reason: No IP infringement indemnity. Customers expect one and its absence slows signature.
+    model_clause: >-
+      Each party shall defend the other party against any third-party claim alleging that its technology infringes
+      or misappropriates that third party's intellectual property rights, and shall pay the damages finally awarded.
+    checks:
+      - param: mutual
+        kind: flag
+        bad: false
+        severity: medium
+        approvers: [legal]
+        positions:
+          preferred: Mutual indemnities.
+          walkaway: One-way indemnity from Tessavel only.
+        redline: >-
+          Each party shall defend, indemnify, and hold harmless the other party from third-party claims as set out in
+          this Section.
+      - param: scope
+        kind: enum
+        preferred: [ip_only]
+        fallback: [ip_and_data]
+        walkaway: [any_claim]
+        otherwise: medium
+        approvers: [legal]
+        positions:
+          preferred: IP infringement claims only.
+          fallback: IP infringement plus breach of data protection obligations.
+          walkaway: Any claim arising out of the Agreement or the Services.
+        redline: >-
+          The indemnity covers third-party claims alleging that the Services infringe or misappropriate that third
+          party's intellectual property rights.
+
+  termination:
+    label: Term and termination
+    required_in: [msa]
+    missing_severity: low
+    missing_approvers: []
+    missing_reason: No termination section. Default rules apply and termination rights are unclear.
+    model_clause: >-
+      Either party may terminate this Agreement if the other party materially breaches it and fails to cure the
+      breach within thirty (30) days after written notice. Neither party may terminate for convenience during a
+      Subscription Term.
+    checks:
+      - param: tfc_notice_days
+        kind: min
+        preferred: 9999
+        fallback: 90
+        walkaway: 30
+        approvers: [finance]
+        positions:
+          preferred: No termination for convenience during a Subscription Term.
+          fallback: Termination for convenience on 90 days notice, no refund of prepaid fees.
+          walkaway: Termination for convenience on less than 30 days notice.
+        redline: >-
+          Neither party may terminate this Agreement for convenience during a Subscription Term.
+      - param: cure_days
+        kind: min
+        preferred: 30
+        fallback: 15
+        walkaway: 10
+        approvers: [legal]
+        positions:
+          preferred: 30 day cure period.
+          fallback: 15 day cure period.
+          walkaway: Less than 10 days to cure.
+        redline: >-
+          Either party may terminate this Agreement if the other party materially breaches it and fails to cure the
+          breach within thirty (30) days after written notice.
+
+  payment_terms:
+    label: Payment terms
+    required_in: [msa, order_form]
+    missing_severity: medium
+    missing_approvers: [finance]
+    missing_reason: No payment terms, so there is no due date to enforce.
+    model_clause: >-
+      Customer shall pay all invoices within thirty (30) days of the invoice date. Late payments accrue interest at
+      1.5% per month or the maximum rate permitted by law, whichever is less.
+    checks:
+      - param: payment_days
+        kind: max
+        preferred: 30
+        fallback: 45
+        walkaway: 60
+        approvers: [finance]
+        positions:
+          preferred: Net 30.
+          fallback: Net 45.
+          walkaway: Longer than net 60.
+        redline: >-
+          Customer shall pay all invoices within thirty (30) days of the invoice date.
+      - param: late_fee_pct
+        kind: min
+        preferred: 1.5
+        fallback: 1.0
+        walkaway: 0.0
+        approvers: [finance]
+        positions:
+          preferred: Late interest of 1.5% per month.
+          fallback: Late interest of 1.0% per month.
+          walkaway: No late interest.
+        redline: >-
+          Late payments accrue interest at 1.5% per month or the maximum rate permitted by law, whichever is less.
+
+  auto_renewal:
+    label: Renewal
+    required_in: []
+    model_clause: >-
+      Each Subscription Term renews automatically for successive one (1) year terms unless either party gives notice
+      of non-renewal at least sixty (60) days before the end of the then-current term.
+    checks:
+      - param: auto_renews
+        kind: flag
+        bad: false
+        severity: low
+        approvers: []
+        positions:
+          preferred: Automatic renewal for one year terms.
+          fallback: Renewal by signed order.
+        redline: >-
+          Each Subscription Term renews automatically for successive one (1) year terms unless either party gives
+          notice of non-renewal at least sixty (60) days before the end of the then-current term.
+      - param: renewal_notice_days
+        kind: min
+        preferred: 60
+        fallback: 30
+        walkaway: 15
+        approvers: [finance]
+        positions:
+          preferred: 60 days notice of non-renewal.
+          fallback: 30 days notice of non-renewal.
+          walkaway: Less than 15 days notice of non-renewal.
+        redline: >-
+          Either party may prevent renewal by giving notice of non-renewal at least sixty (60) days before the end of
+          the then-current term.
+
+  governing_law:
+    label: Governing law and venue
+    required_in: [msa]
+    missing_severity: medium
+    missing_approvers: [legal]
+    missing_reason: No governing law. Disputes would start with a fight about which law applies.
+    model_clause: >-
+      This Agreement is governed by the laws of the State of Delaware, without regard to its conflict of laws rules.
+    checks:
+      - param: law
+        kind: enum
+        preferred: [Delaware]
+        fallback: [New York, California]
+        walkaway: []
+        otherwise: medium
+        approvers: [legal]
+        positions:
+          preferred: Delaware law.
+          fallback: New York or California law.
+          walkaway: Any other jurisdiction needs legal approval.
+        redline: >-
+          This Agreement is governed by the laws of the State of Delaware, without regard to its conflict of laws
+          rules.
+
+  confidentiality:
+    label: Confidentiality
+    required_in: [msa]
+    missing_severity: medium
+    missing_approvers: [legal]
+    missing_reason: No confidentiality clause. Pricing and roadmap shared in the deal are unprotected.
+    model_clause: >-
+      Each party shall protect the other party's Confidential Information with reasonable care. These obligations
+      survive for three (3) years after termination, and for trade secrets for as long as they remain trade secrets.
+    checks:
+      - param: term_years
+        kind: max
+        preferred: 3
+        fallback: 5
+        walkaway: 10
+        approvers: [legal]
+        positions:
+          preferred: 3 years after termination.
+          fallback: 5 years after termination.
+          walkaway: Perpetual obligations for all information.
+        redline: >-
+          These obligations survive for three (3) years after termination, and for trade secrets for as long as they
+          remain trade secrets.
+
+  data_protection:
+    label: Data protection
+    required_in: [dpa]
+    missing_severity: high
+    missing_approvers: [security, legal]
+    missing_reason: A data processing agreement with no data protection terms. Processing would be unregulated.
+    model_clause: >-
+      Tessavel will notify Customer of a Security Incident without undue delay and in any event within seventy-two
+      (72) hours. Tessavel may engage subprocessors and will notify Customer of new subprocessors. Tessavel will make
+      its most recent SOC 2 Type II report available once per year in place of an audit.
+    checks:
+      - param: breach_hours
+        kind: min
+        preferred: 72
+        fallback: 48
+        walkaway: 24
+        approvers: [security]
+        positions:
+          preferred: Notice within 72 hours.
+          fallback: Notice within 48 hours.
+          walkaway: Notice in less than 24 hours.
+        redline: >-
+          Tessavel will notify Customer of a Security Incident without undue delay and in any event within
+          seventy-two (72) hours after becoming aware of it.
+      - param: subprocessors
+        kind: enum
+        preferred: [notice]
+        fallback: [objection]
+        walkaway: [consent]
+        otherwise: medium
+        approvers: [security]
+        positions:
+          preferred: Notice of new subprocessors.
+          fallback: 30 days advance notice with a right to object on reasonable grounds.
+          walkaway: Prior written consent for each subprocessor.
+        redline: >-
+          Tessavel may engage subprocessors and will notify Customer of any new subprocessor at least thirty (30) days
+          in advance.
+      - param: audit
+        kind: enum
+        preferred: [report]
+        fallback: [annual]
+        walkaway: [onsite]
+        otherwise: medium
+        approvers: [security]
+        positions:
+          preferred: SOC 2 Type II report in place of audits.
+          fallback: One remote audit per year on 30 days notice.
+          walkaway: On-site audits at any time.
+        redline: >-
+          Tessavel will make its most recent SOC 2 Type II report available once per year, which satisfies any audit
+          right under this Agreement.
+
+  warranties:
+    label: Warranties and disclaimers
+    required_in: [msa]
+    missing_severity: medium
+    missing_approvers: [legal]
+    missing_reason: No warranty disclaimer, so implied warranties of fitness and merchantability may apply.
+    model_clause: >-
+      Tessavel warrants that the Services will perform materially in accordance with the Documentation for ninety
+      (90) days. EXCEPT AS EXPRESSLY STATED, TESSAVEL DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING MERCHANTABILITY AND
+      FITNESS FOR A PARTICULAR PURPOSE.
+    checks:
+      - param: disclaimer
+        kind: flag
+        bad: false
+        severity: medium
+        approvers: [legal]
+        positions:
+          preferred: Implied warranties disclaimed.
+          walkaway: No disclaimer of implied warranties.
+        redline: >-
+          EXCEPT AS EXPRESSLY STATED IN THIS AGREEMENT, EACH PARTY DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING
+          MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+      - param: warranty_days
+        kind: max
+        preferred: 90
+        fallback: 180
+        walkaway: 365
+        approvers: [legal]
+        positions:
+          preferred: 90 day performance warranty.
+          fallback: 180 day performance warranty.
+          walkaway: Warranty of one year or longer.
+        redline: >-
+          Tessavel warrants that the Services will perform materially in accordance with the Documentation for ninety
+          (90) days.
+
+  assignment:
+    label: Assignment
+    required_in: []
+    model_clause: >-
+      Neither party may assign this Agreement without the other party's prior written consent, except to a successor
+      in a merger, acquisition, or sale of all or substantially all of its assets.
+    checks:
+      - param: assignment
+        kind: enum
+        preferred: [mutual_coc]
+        fallback: [mutual_consent]
+        walkaway: []
+        otherwise: medium
+        approvers: [legal]
+        positions:
+          preferred: Mutual consent, with an exception for a change of control.
+          fallback: Mutual consent for any assignment.
+          walkaway: Customer may assign freely while Tessavel needs consent.
+        redline: >-
+          Neither party may assign this Agreement without the other party's prior written consent, except to a
+          successor in a merger, acquisition, or sale of all or substantially all of its assets.
+
+  non_solicit:
+    label: Non-solicitation
+    required_in: []
+    model_clause: >-
+      During the term and for twelve (12) months after, neither party shall solicit for employment any employee of
+      the other party who worked on the Services. General job postings are not solicitation.
+    checks:
+      - param: nonsolicit_months
+        kind: max
+        preferred: 12
+        fallback: 18
+        walkaway: 24
+        approvers: [legal]
+        positions:
+          preferred: 12 months, mutual.
+          fallback: 18 months.
+          walkaway: Longer than 24 months.
+        redline: >-
+          During the term and for twelve (12) months after, neither party shall solicit for employment any employee of
+          the other party who worked on the Services.
+
+  insurance:
+    label: Insurance
+    required_in: []
+    model_clause: >-
+      Tessavel shall maintain cyber liability insurance with limits of not less than $2,000,000 per claim.
+    checks:
+      - param: coverage_millions
+        kind: max
+        preferred: 2
+        fallback: 5
+        walkaway: 10
+        approvers: [finance]
+        positions:
+          preferred: $2M per claim.
+          fallback: $5M per claim.
+          walkaway: More than $10M per claim.
+        redline: >-
+          Tessavel shall maintain cyber liability insurance with limits of not less than $5,000,000 per claim.

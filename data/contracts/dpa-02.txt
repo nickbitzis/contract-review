@@ -1,0 +1,33 @@
+DATA PROCESSING AGREEMENT
+
+between Fenwick Retail Group ("Customer") and Tessavel, Inc. ("Provider")
+
+Section 1. Definitions
+(a) "Agreement" means this agreement between Provider and Fenwick Retail Group, including all Order Forms.
+(b) "Fees" means the amounts payable under an Order Form.
+(c) "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+(d) "Subscription Term" means the period stated in an Order Form.
+
+Section 2. Processing Instructions
+Provider shall process Fenwick Retail Group Personal Data only on Fenwick Retail Group's documented instructions.
+
+Section 3. Security Incidents
+Provider shall report a Security Incident to Fenwick Retail Group without undue delay, and in any event no later than 72 hours after discovery.
+
+Section 4. Scope and Roles
+Fenwick Retail Group is the controller and Provider is the processor of Fenwick Retail Group Personal Data processed under the Agreement.
+
+Section 5. Return and Deletion
+Within thirty (30) days after termination, Provider shall delete or return all Fenwick Retail Group Personal Data.
+
+Section 6. Subprocessors
+No third party may process Fenwick Retail Group Personal Data on Provider's behalf unless Fenwick Retail Group has first approved that party in writing.
+
+Section 7. Choice of Law
+This Agreement is governed by the laws of the State of New York, without regard to its conflict of laws principles. The state and federal courts located in New York County, New York have exclusive jurisdiction.
+
+Section 8. Audits
+In place of audits, Provider will share third-party attestation reports, such as ISO 27001 certificates.
+
+Section 9. Liability
+Each party's liability under this DPA is subject to the limitations set forth in the Agreement.

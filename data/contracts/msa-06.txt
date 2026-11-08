@@ -1,0 +1,63 @@
+SOFTWARE AS A SERVICE AGREEMENT
+
+between Kestrel Logistics ("Customer") and Tessavel, Inc. ("Supplier")
+
+1) Definitions
+1.1) "Agreement" means this agreement between Supplier and Kestrel Logistics, including all Order Forms.
+1.2) "Fees" means the amounts payable under an Order Form.
+1.3) "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4) "Subscription Term" means the period stated in an Order Form.
+
+2) Limitation of Liability
+2.1) The most either party can recover from the other, for all claims combined, is half of the annual subscription charges.
+2.2) Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+3) Invoicing and Payment
+3.1) Supplier will invoice Kestrel Logistics annually in advance for the fees in each Order Form.
+3.2) Kestrel Logistics shall pay all undisputed invoices within forty-five (45) days of receipt.
+3.3) Overdue amounts accrue interest at the lesser of 1% per month or the highest rate permitted by law.
+3.4) Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+4) No Hire
+Supplier shall not hire or attempt to hire any Kestrel Logistics employee for 6 months after termination of this Agreement.
+
+5) Indemnification
+5.1) Each party (the "Indemnifying Party") shall defend, indemnify, and hold harmless the other party from and against any and all claims, losses, liabilities, and expenses arising out of or relating to this Agreement or the Services, and shall pay all damages and costs finally awarded.
+5.2) The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+6) Publicity
+Supplier may name Kestrel Logistics as a customer with Kestrel Logistics' prior written approval.
+
+7) Confidentiality
+7.1) Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+7.2) These obligations apply for a period of 5 years from the date of disclosure.
+
+8) Services
+Supplier will make the Services available to Kestrel Logistics during the Subscription Term in accordance with the Documentation.
+
+9) Termination
+9.1) This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+9.2) Unless cancelled in writing 10 days ahead of the anniversary date, the subscription rolls over for another year.
+9.3) Either party may terminate this Agreement if the other party commits a material breach and fails to remedy such breach within 45 days of written notice.
+9.4) Kestrel Logistics may terminate this Agreement or any Order Form for convenience on sixty (60) days' prior written notice to Supplier.
+9.5) Upon termination, Kestrel Logistics shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+10) Notices
+Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+11) Representations and Warranties
+11.1) Supplier warrants that the Services will perform materially in accordance with the Documentation for ninety (90) days after the start of the Subscription Term.
+11.2) Supplier further warrants that the Services are fit for Kestrel Logistics' intended purpose.
+
+12) Exclusions
+The limitations in Section 2 do not apply to (a) a party's indemnification obligations, (b) breach of confidentiality obligations, or (c) gross negligence or willful misconduct.
+
+13) Support and Service Levels
+Supplier will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+14) Force Majeure
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+15) Miscellaneous
+15.1) This Agreement is the entire agreement of the parties on its subject matter.
+15.2) The parties are independent contractors.

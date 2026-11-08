@@ -1,0 +1,71 @@
+Master Subscription Agreement
+
+between Yarrow Media ("Customer") and Tessavel, Inc. ("Vendor")
+
+2. Definitions
+2.1 "Agreement" means this agreement between Vendor and Yarrow Media, including all Order Forms.
+2.2 "Fees" means the amounts payable under an Order Form.
+2.3 "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+2.4 "Subscription Term" means the period stated in an Order Form.
+2.5 "Liability Cap" means an amount equal to the fees paid or payable by Yarrow Media in the sixty (60) months before the claim.
+
+4. Duration
+4.1 This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+4.2 Unless cancelled in writing 60 days ahead of the anniversary date, the subscription rolls over for another year.
+4.3 Either party may terminate this Agreement if the other party commits a material breach and fails to remedy such breach within 30 days of written notice.
+4.4 Yarrow Media may end this Agreement without cause on fifteen (15) days' notice.
+4.5 Upon termination, Yarrow Media shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+5. Payment
+5.1 Vendor will invoice Yarrow Media annually in advance for the fees in each Order Form.
+5.2 Yarrow Media shall pay all undisputed invoices within ninety (90) days of receipt.
+5.3 No late fees, interest, or penalties shall apply to any payment.
+5.4 Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+6. Force Majeure
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+7. Publicity
+Vendor may name Yarrow Media as a customer with Yarrow Media's prior written approval.
+
+8. Indemnification
+8.1 Each party (the "Indemnifying Party") shall defend and hold harmless the other party from and against any third-party claim alleging that the Services infringe or misappropriate any patent, copyright, trademark, or trade secret, and shall pay all damages and costs finally awarded.
+8.2 The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+9. Performance Warranty
+9.1 Vendor warrants that the Services will perform materially in accordance with the Documentation for one hundred eighty (180) days after the start of the Subscription Term.
+9.2 EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, VENDOR MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+10. Non-Solicitation
+Vendor shall not hire or attempt to hire any Yarrow Media employee for 18 months after termination of this Agreement.
+
+11. Notices
+Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+12. Insurance
+Vendor will carry cyber coverage of at least 2 million dollars per incident.
+
+14. Services
+Vendor will make the Services available to Yarrow Media during the Subscription Term in accordance with the Documentation.
+
+16. Confidentiality
+16.1 Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+16.2 The duty of secrecy lasts three years beyond expiry.
+
+17. Support and Service Levels
+Vendor will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+18. Export Compliance
+Each party shall comply with applicable export control and sanctions laws.
+
+19. Transfer
+Neither party may assign this Agreement without the other party's prior written consent, except to a successor in a merger, acquisition, or sale of all or substantially all of its assets.
+
+20. Limitation of Liability
+20.1 Each party's total liability arising out of this Agreement is limited to the Liability Cap.
+20.2 Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+22. Miscellaneous
+22.1 This Agreement is the entire agreement of the parties on its subject matter.
+22.2 Any dispute will be resolved under Delaware law, and the parties consent to venue in Wilmington, Delaware.
+22.3 The parties are independent contractors.

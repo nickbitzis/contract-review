@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contract Review</title>
+<style>
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --text: #1b1f24; --muted: #5c6670; --line: #dde1e6; --accent: #2457c5;
+  --accent-text: #ffffff; --ok: #1d7a46; --ok-bg: #e3f4ea; --low: #7a6200; --low-bg: #fbf3cf; --med: #a94f00;
+  --med-bg: #fde6d2; --high: #b42318; --high-bg: #fde8e6; --info: #2457c5; --info-bg: #e6edfb; --code: #f0f2f5;
+  --typed: #e9edf3;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111418; --panel: #1a1e24; --text: #e6e9ed; --muted: #9aa4af; --line: #2c323a; --accent: #6d9bff;
+    --accent-text: #0d1117; --ok: #5fd08f; --ok-bg: #16301f; --low: #e8cf6a; --low-bg: #322b10; --med: #ffb26b;
+    --med-bg: #3a2614; --high: #ff8a80; --high-bg: #3a1a18; --info: #8fb2ff; --info-bg: #1b2740; --code: #232830;
+    --typed: #222831;
+  }
+}
+* { box-sizing: border-box; }
+html, body { overflow-x: hidden; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+header { background: var(--panel); border-bottom: 1px solid var(--line); padding: 12px 16px; }
+header h1 { margin: 0; font-size: 18px; }
+header p { margin: 2px 0 0; color: var(--muted); }
+main { max-width: 1320px; margin: 0 auto; padding: 16px; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+button, .btn, select, input[type=text] { font: inherit; border: 1px solid var(--line); background: var(--panel); color: var(--text);
+  border-radius: 6px; padding: 6px 10px; cursor: pointer; text-decoration: none; max-width: 100%; }
+select { min-width: 0; }
+button.primary, .btn.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+button:disabled { opacity: .5; cursor: default; }
+label.upload { border: 1px dashed var(--muted); border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+label.upload input { display: none; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; margin-bottom: 12px; min-width: 0; }
+.summary { display: grid; grid-template-columns: minmax(0, 1.2fr) repeat(3, minmax(0, .6fr)) minmax(0, 2fr); gap: 10px; align-items: center; }
+.stat b { display: block; font-size: 22px; }
+.stat span { color: var(--muted); font-size: 12px; }
+.risk b { font-size: 30px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.layout { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 12px; align-items: start; }
+.doc { font: 14px/1.65 Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 78vh; overflow-y: auto; }
+.cl { border-radius: 3px; padding: 1px 0; }
+.cl.typed { background: var(--typed); }
+.cl.sev-low { background: var(--low-bg); box-shadow: inset 0 -2px 0 var(--low); }
+.cl.sev-medium { background: var(--med-bg); box-shadow: inset 0 -2px 0 var(--med); }
+.cl.sev-high { background: var(--high-bg); box-shadow: inset 0 -2px 0 var(--high); }
+.cl.flash { outline: 2px solid var(--accent); }
+.issues { max-height: 78vh; overflow-y: auto; }
+.issue { border-top: 1px solid var(--line); padding: 10px 0; }
+.issue:first-child { border-top: 0; padding-top: 0; }
+.issue h3 { margin: 0 0 4px; font-size: 14px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.issue h3 a { color: var(--text); text-decoration: none; cursor: pointer; }
+.badge { display: inline-block; border-radius: 999px; padding: 1px 8px; font-size: 12px; font-weight: 600; white-space: nowrap; }
+.b-low { background: var(--low-bg); color: var(--low); } .b-medium { background: var(--med-bg); color: var(--med); }
+.b-high { background: var(--high-bg); color: var(--high); } .b-ok { background: var(--ok-bg); color: var(--ok); }
+.b-info { background: var(--info-bg); color: var(--info); }
+.muted { color: var(--muted); }
+.pos { font-size: 13px; margin: 6px 0; padding-left: 8px; border-left: 3px solid var(--line); }
+.pos div { overflow-wrap: anywhere; }
+.rl { font: 13px/1.5 Georgia, serif; background: var(--code); border-radius: 6px; padding: 6px 8px; margin: 6px 0; overflow-wrap: anywhere; }
+del { color: var(--high); text-decoration: line-through; }
+ins { color: var(--ok); text-decoration: underline; }
+textarea { width: 100%; min-height: 80px; font: 13px/1.45 Georgia, serif; color: var(--text); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 6px; }
+.actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.approval { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 6px; font-size: 13px; }
+.approval input { width: 130px; }
+.legend { display: flex; flex-wrap: wrap; gap: 10px; font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -2px; margin-right: 4px; }
+table.audit { border-collapse: collapse; width: 100%; font-size: 12px; }
+table.audit td, table.audit th { border-bottom: 1px solid var(--line); padding: 4px 6px; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+.empty { color: var(--muted); padding: 24px; text-align: center; }
+.disclaimer { color: var(--muted); font-size: 12px; margin-top: 12px; }
+@media (max-width: 900px) {
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .summary .wide { grid-column: 1 / -1; }
+  .doc, .issues { max-height: none; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Contract Review</h1>
+  <p>Customer paper checked against the Tessavel negotiation playbook: clauses found, terms read, deviations flagged, redlines drafted, approvals routed.</p>
+</header>
+<main>
+  <div class="bar">
+    <select id="sample" aria-label="Sample contract"></select>
+    <button class="primary" id="load">Analyze sample</button>
+    <label class="upload">Upload .txt or .docx<input type="file" id="file" accept=".txt,.md,.docx"></label>
+    <span class="muted" id="mode"></span>
+  </div>
+  <div id="app"><div class="card empty">Pick a sample contract or upload one.</div></div>
+  <p class="disclaimer">A review aid for a commercial team, not legal advice. All contracts and companies here are synthetic.</p>
+</main>
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const GROUPS = {legal: "Commercial Legal", finance: "Deal Desk", security: "Security and Privacy"};
+let doc = null;
+
+async function api(path, opts = {}) {
+  const r = await fetch(path, opts);
+  if (!r.ok) { const e = await r.json().catch(() => ({detail: r.statusText})); throw new Error(e.detail || r.statusText); }
+  return r.json();
+}
+
+function wordDiff(a, b) {
+  const A = a.match(/\S+|\s+/g) || [], B = b.match(/\S+|\s+/g) || [];
+  const n = A.length, m = B.length, L = Array.from({length: n + 1}, () => new Array(m + 1).fill(0));
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--)
+    L[i][j] = A[i] === B[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+  if (2 * L[0][0] / Math.max(1, n + m) < 0.6) return `<del>${esc(a)}</del> <ins>${esc(b)}</ins>`;
+  let i = 0, j = 0, out = "";
+  while (i < n && j < m) {
+    if (A[i] === B[j]) { out += esc(A[i]); i++; j++; }
+    else if (L[i + 1][j] >= L[i][j + 1]) { out += `<del>${esc(A[i])}</del>`; i++; }
+    else { out += `<ins>${esc(B[j])}</ins>`; j++; }
+  }
+  while (i < n) out += `<del>${esc(A[i++])}</del>`;
+  while (j < m) out += `<ins>${esc(B[j++])}</ins>`;
+  return out;
+}
+
+function renderDoc(d) {
+  let html = "", pos = 0;
+  for (const c of [...d.clauses].sort((x, y) => x.start - y.start)) {
+    if (c.start < pos) continue;
+    html += esc(d.text.slice(pos, c.start));
+    const cls = c.severity !== "ok" ? `sev-${c.severity}` : (c.types.length ? "typed" : "");
+    const tip = c.types.length ? c.types.join(", ") : "";
+    html += `<span class="cl ${cls}" id="cl-${c.id}" title="${esc(tip)}">${esc(d.text.slice(c.start, c.end))}</span>`;
+    pos = c.end;
+  }
+  return html + esc(d.text.slice(pos));
+}
+
+function issueCard(it) {
+  const p = it.position || {};
+  const pos = ["preferred", "fallback", "walkaway"].filter(k => p[k]).map(k =>
+    `<div><b>${k[0].toUpperCase() + k.slice(1)}:</b> ${esc(p[k])}</div>`).join("");
+  const rl = it.redline;
+  const shown = it.status === "edited" ? it.decision_text : rl.proposed;
+  const diff = rl.original ? wordDiff(rl.original, shown) : `<ins>${esc(shown.trim())}</ins>`;
+  const appr = it.approvers.length ? it.approvers.map(r => `<span class="badge b-info">${esc(GROUPS[r] || r)}</span>`).join(" ")
+    : `<span class="muted">no approval needed</span>`;
+  const status = it.status === "pending" ? "" : `<span class="badge ${it.status === "rejected" ? "b-medium" : "b-ok"}">${esc(it.status)}</span>`;
+  let approvals = "";
+  for (const r of it.required_approvals) {
+    const done = it.approvals[r];
+    approvals += done
+      ? `<div class="approval"><span class="badge b-ok">${esc(GROUPS[r] || r)} approved</span><span class="muted">${esc(done.by)}</span></div>`
+      : `<div class="approval"><span>${esc(GROUPS[r] || r)}:</span><input type="text" value="${r}-approver" aria-label="Approver name" data-approver="${r}">
+         <button data-act="approve" data-role="${r}">Approve</button><button data-act="decline" data-role="${r}">Send back</button></div>`;
+  }
+  const ev = it.evidence && it.evidence.source === "model" ? ` <span class="badge b-info">model</span>` : "";
+  return `<div class="issue" data-id="${it.id}">
+    <h3><span class="badge b-${it.severity}">${it.severity}</span><a data-act="jump">${esc(it.id)} ${esc(it.label)}</a>${status}${ev}</h3>
+    <div>${esc(it.reason)}</div>
+    <details><summary class="muted">Playbook position</summary><div class="pos">${pos}</div></details>
+    <div class="rl">${diff}</div>
+    <div class="chips"><span class="muted">If conceded:</span> ${appr}</div>
+    <div class="actions">
+      <button class="primary" data-act="accept">Accept redline</button>
+      <button data-act="edit">Edit</button>
+      <button data-act="reject">Keep customer text</button>
+    </div>
+    <div class="editbox" hidden><textarea>${esc(shown.trim())}</textarea>
+      <div class="actions"><button class="primary" data-act="save">Save edit</button></div></div>
+    ${approvals}
+  </div>`;
+}
+
+function render() {
+  const d = doc, s = d.summary;
+  const chips = s.approvals_needed.map(a => `<span class="badge b-info">${esc(a.group)}</span>`).join(" ") || `<span class="muted">none</span>`;
+  const waiting = d.progress.approvals_waiting.length;
+  $("#app").innerHTML = `
+  <div class="card summary">
+    <div class="stat risk"><b>${s.risk_score}<span class="muted" style="font-size:14px"> / 100</span></b><span>Risk score, ${esc(d.title)}</span></div>
+    <div class="stat"><b style="color:var(--high)">${s.by_severity.high}</b><span>High</span></div>
+    <div class="stat"><b style="color:var(--med)">${s.by_severity.medium}</b><span>Medium</span></div>
+    <div class="stat"><b style="color:var(--low)">${s.by_severity.low}</b><span>Low</span></div>
+    <div class="wide"><div class="chips"><span class="muted">Approvals if conceded:</span> ${chips}</div>
+      <div class="chips" style="margin-top:6px"><span class="badge b-${d.status === "ready_to_sign" ? "ok" : "info"}">${esc(d.status.replaceAll("_", " "))}</span>
+      <span class="muted">${d.progress.decided}/${d.progress.total} decided${waiting ? `, ${waiting} approval(s) waiting` : ""}</span>
+      <a class="btn" href="/api/contracts/${d.id}/memo.md">Memo (.md)</a>
+      <a class="btn" href="/api/contracts/${d.id}/redline.html?pending=true" target="_blank">Redline</a></div></div>
+  </div>
+  <div class="layout">
+    <div class="card"><div class="legend"><span><i style="background:var(--high-bg);box-shadow:inset 0 -2px 0 var(--high)"></i>High</span>
+      <span><i style="background:var(--med-bg);box-shadow:inset 0 -2px 0 var(--med)"></i>Medium</span>
+      <span><i style="background:var(--low-bg);box-shadow:inset 0 -2px 0 var(--low)"></i>Low</span>
+      <span><i style="background:var(--typed)"></i>Clause found, within playbook</span>
+      <span>${esc(d.kind.replace("_", " "))}, ${Object.keys(d.present).length} clause types found</span></div>
+      <div class="doc" id="doc">${renderDoc(d)}</div></div>
+    <div class="card issues" id="issues">${d.issues.length ? d.issues.map(issueCard).join("") : `<div class="empty">No deviations from the playbook.</div>`}</div>
+  </div>
+  <details class="card"><summary>Audit trail (${d.audit.length})</summary>
+    <table class="audit"><tr><th>#</th><th>Time (UTC)</th><th>Actor</th><th>Action</th><th>Issue</th><th>Detail</th></tr>
+    ${d.audit.map(e => `<tr><td>${e.seq}</td><td>${esc(e.at)}</td><td>${esc(e.actor)}</td><td>${esc(e.action)}</td><td>${esc(e.issue_id || "")}</td><td>${esc(e.detail)}</td></tr>`).join("")}</table>
+  </details>`;
+}
+
+async function act(e) {
+  const btn = e.target.closest("[data-act]");
+  if (!btn) return;
+  const card = btn.closest(".issue"), id = card.dataset.id, a = btn.dataset.act;
+  const it = doc.issues.find(i => i.id === id);
+  if (a === "jump") {
+    const el = document.getElementById("cl-" + (it.clause_ids[0] || ""));
+    if (el) { el.scrollIntoView({block: "center", behavior: "smooth"}); el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 1500); }
+    return;
+  }
+  if (a === "edit") { $(".editbox", card).hidden = !$(".editbox", card).hidden; return; }
+  try {
+    let res;
+    if (a === "approve" || a === "decline") {
+      const name = $(`input[data-approver="${btn.dataset.role}"]`, card).value || btn.dataset.role;
+      res = await api(`/api/contracts/${doc.id}/issues/${id}/approvals`, {method: "POST", headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({role: btn.dataset.role, approver: name, approve: a === "approve"})});
+    } else {
+      const body = {reviewer: "reviewer"};
+      const decision = a === "save" ? "edit" : a;
+      if (a === "save") body.text = $("textarea", card).value;
+      res = await api(`/api/contracts/${doc.id}/issues/${id}/${decision}`, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)});
+    }
+    doc = await api(`/api/contracts/${doc.id}`);
+    const scroll = $("#issues").scrollTop;
+    render();
+    $("#issues").scrollTop = scroll;
+  } catch (err) { alert(err.message); }
+}
+
+async function load(sample) {
+  $("#app").innerHTML = `<div class="card empty">Analyzing...</div>`;
+  doc = await api(`/api/contracts/sample/${encodeURIComponent(sample)}`, {method: "POST"});
+  render();
+}
+
+async function init() {
+  const [samples, health] = await Promise.all([api("/api/samples"), api("/healthz")]);
+  $("#mode").textContent = `mode: ${health.mode}`;
+  $("#sample").innerHTML = samples.map(s => `<option value="${s.id}">${esc(s.id)}: ${esc(s.title)}</option>`).join("");
+  $("#load").onclick = () => load($("#sample").value);
+  $("#file").onchange = async e => {
+    const f = e.target.files[0]; if (!f) return;
+    const fd = new FormData(); fd.append("file", f);
+    try { doc = await api("/api/contracts", {method: "POST", body: fd}); render(); } catch (err) { alert(err.message); }
+  };
+  document.addEventListener("click", act);
+  const q = new URLSearchParams(location.search).get("sample");
+  if (q) { $("#sample").value = q; load(q); }
+}
+init();
+</script>
+</body>
+</html>

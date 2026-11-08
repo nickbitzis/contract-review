@@ -1,0 +1,76 @@
+MASTER SERVICES AGREEMENT
+
+between Kestrel Insurance ("Customer") and Tessavel, Inc. ("Provider")
+
+2. Definitions
+2.1 "Agreement" means this agreement between Provider and Kestrel Insurance, including all Order Forms.
+2.2 "Fees" means the amounts payable under an Order Form.
+2.3 "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+2.4 "Subscription Term" means the period stated in an Order Form.
+2.5 "Liability Cap" means an amount equal to the fees paid or payable by Kestrel Insurance in the twelve (12) months before the claim.
+
+4. Insurance
+Provider will carry cyber coverage of at least 10 million dollars per incident.
+
+5. Services
+Provider will make the Services available to Kestrel Insurance during the Subscription Term in accordance with the Documentation.
+
+6. Publicity
+Provider may name Kestrel Insurance as a customer with Kestrel Insurance's prior written approval.
+
+8. Data Protection
+8.1 Provider shall process Kestrel Insurance Personal Data only on Kestrel Insurance's documented instructions.
+8.2 Provider shall notify Kestrel Insurance of any Security Incident within one (1) business day of becoming aware of it.
+8.3 Kestrel Insurance has the right to veto a new subprocessor during a thirty (30) day review window.
+8.4 Provider will provide its most recent SOC 2 Type II report on request, no more than once per year.
+
+9. Automatic Renewal
+Each Subscription Term will renew for an additional twelve (12) months unless a party notifies the other of its intent not to renew no later than 90 days prior to expiration.
+
+11. Limitation of Liability
+11.1 Liability of each party is restricted to 100% of the Fees for the then-current year.
+11.2 Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+12. Indemnification
+12.1 Each party (the "Indemnifying Party") shall defend and hold harmless the other party from and against any third-party claim alleging that the Services infringe or misappropriate any patent, copyright, trademark, or trade secret, and shall pay all damages and costs finally awarded.
+12.2 The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+13. Confidential Information
+13.1 Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+13.2 The obligations in this Section continue for five (5) years after termination of this Agreement.
+
+14. Representations and Warranties
+14.1 Provider stands behind the Services for six months: if they do not work as documented, Provider will fix them.
+14.2 EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, PROVIDER MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+16. Support and Service Levels
+Provider will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+18. Export Compliance
+Each party shall comply with applicable export control and sanctions laws.
+
+19. Force Majeure
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+20. Fees and Payment
+20.1 Provider will invoice Kestrel Insurance annually in advance for the fees in each Order Form.
+20.2 Kestrel Insurance has 60 calendar days to settle each invoice.
+20.3 No late fees, interest, or penalties shall apply to any payment.
+20.4 Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+21. Excluded Claims
+The limitations in Section 11 do not apply to (a) a party's indemnification obligations, (b) breach of confidentiality obligations, or (c) gross negligence or willful misconduct.
+
+22. No Hire
+Provider shall not hire or attempt to hire any Kestrel Insurance employee for 18 months after termination of this Agreement.
+
+23. Term and Termination
+23.1 This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+23.2 Either party may terminate this Agreement if the other party commits a material breach and fails to remedy such breach within 15 days of written notice.
+23.3 Kestrel Insurance may terminate this Agreement or any Order Form for convenience on fifteen (15) days' prior written notice to Provider.
+23.4 Upon termination, Kestrel Insurance shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+24. Miscellaneous
+24.1 This Agreement is the entire agreement of the parties on its subject matter.
+24.2 Any dispute will be resolved under Delaware law, and the parties consent to venue in Wilmington, Delaware.
+24.3 The parties are independent contractors.

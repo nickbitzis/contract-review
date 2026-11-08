@@ -1,0 +1,47 @@
+Master Subscription Agreement
+
+between Vantry Logistics ("Customer") and Tessavel, Inc. ("Vendor")
+
+1. Definitions. "Agreement" means this agreement between Vendor and Vantry Logistics, including all Order Forms.
+1.2. "Fees" means the amounts payable under an Order Form.
+1.3. "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4. "Subscription Term" means the period stated in an Order Form.
+
+2. Notices. Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+3. Disputes. This Agreement is governed by the laws of the State of California, without regard to its conflict of laws principles. The state and federal courts located in San Francisco County, California have exclusive jurisdiction.
+
+4. Services. Vendor will make the Services available to Vantry Logistics during the Subscription Term in accordance with the Documentation.
+
+5. Employees. Vendor shall not hire or attempt to hire any Vantry Logistics employee for 36 months after termination of this Agreement.
+
+6. Indemnification. Vendor will cover Vantry Logistics' losses from actions brought by outsiders asserting that the Services violate a third party's patent, copyright, or trade secret.
+6.2. The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+7. Publicity. Vendor may name Vantry Logistics as a customer with Vantry Logistics' prior written approval.
+
+8. Duration. This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+8.2. This Agreement automatically renews for successive one (1) year periods unless either party gives written notice of non-renewal at least thirty (30) days before the end of the then-current term.
+8.3. Either party may terminate this Agreement upon written notice if the other party materially breaches it and does not cure the breach within forty-five (45) days after receiving notice of it.
+8.4. Vantry Logistics may terminate this Agreement or any Order Form for convenience on thirty (30) days' prior written notice to Vendor.
+8.5. Upon termination, Vantry Logistics shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+9. Export Compliance. Each party shall comply with applicable export control and sanctions laws.
+
+10. Confidentiality. Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+10.2. The obligations in this Section continue for two (2) years after termination of this Agreement.
+
+11. Support and Service Levels. Vendor will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+12. Performance Warranty. Vendor warrants that the Services will perform materially in accordance with the Documentation for six (6) months after the start of the Subscription Term.
+12.2. THE SERVICES ARE PROVIDED WITHOUT ANY OTHER EXPRESS OR IMPLIED GUARANTEES, INCLUDING SUITABILITY FOR A SPECIFIC USE.
+
+13. Force Majeure. Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+14. Payment. Vendor will invoice Vantry Logistics annually in advance for the fees in each Order Form.
+14.2. Vantry Logistics will remit payment no later than the sixtieth day following the invoice date.
+14.3. Unpaid balances carry a monthly finance charge of 1.5 percent.
+14.4. Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+15. Miscellaneous. This Agreement is the entire agreement of the parties on its subject matter.
+15.2. The parties are independent contractors.

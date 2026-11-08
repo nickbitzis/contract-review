@@ -1,0 +1,72 @@
+SOFTWARE AS A SERVICE AGREEMENT
+
+between Larkspur Retail Group ("Customer") and Tessavel, Inc. ("Vendor")
+
+DEFINITIONS
+"Agreement" means this agreement between Vendor and Larkspur Retail Group, including all Order Forms.
+"Fees" means the amounts payable under an Order Form.
+"Security Incident" means unauthorized access to Customer Personal Data in the Services.
+"Subscription Term" means the period stated in an Order Form.
+"Liability Cap" means an amount equal to the fees paid or payable by Larkspur Retail Group in the six (6) months before the claim.
+
+TRANSFER
+Neither party may assign this Agreement without the other party's prior written consent, except to a successor in a merger, acquisition, or sale of all or substantially all of its assets.
+
+LIMITATION OF LIABILITY
+Each party's total liability arising out of this Agreement is limited to the Liability Cap.
+Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+TERMINATION FOR CONVENIENCE
+Larkspur Retail Group may end this Agreement without cause on fifteen (15) days' notice.
+
+FEES AND PAYMENT
+Vendor will invoice Larkspur Retail Group annually in advance for the fees in each Order Form.
+Larkspur Retail Group will remit payment no later than the forty-fifth day following the invoice date.
+Late payments bear interest at 1% per month.
+Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+CHOICE OF LAW
+Any dispute will be resolved under England and Wales law, and the parties consent to venue in London.
+
+SERVICES
+Vendor will make the Services available to Larkspur Retail Group during the Subscription Term in accordance with the Documentation.
+
+INDEMNIFICATION
+Each party (the "Indemnifying Party") shall defend, indemnify, and hold harmless the other party from and against any third-party claim alleging that the Services infringe or misappropriate any intellectual property right, or arising from a breach of the data protection obligations in this Agreement, and shall pay all damages and costs finally awarded.
+The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+PERFORMANCE WARRANTY
+Vendor warrants that the Services will perform materially in accordance with the Documentation for twelve (12) months after the start of the Subscription Term.
+EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, VENDOR MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+SUPPORT AND SERVICE LEVELS
+Vendor will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+CONFIDENTIALITY
+Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+These obligations survive termination of this Agreement in perpetuity.
+
+NOTICES
+Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+EXCLUSIONS
+The limitations in Section 3 do not apply to (a) a party's indemnification obligations, (b) breach of confidentiality obligations, or (c) gross negligence or willful misconduct.
+
+EXPORT COMPLIANCE
+Each party shall comply with applicable export control and sanctions laws.
+
+FORCE MAJEURE
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+TERM AND TERMINATION
+This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+This Agreement automatically renews for successive one (1) year periods unless either party gives written notice of non-renewal at least thirty (30) days before the end of the then-current term.
+If one party seriously fails to perform and has not corrected the failure within 30 days after being told about it, the other party may end this Agreement.
+Upon termination, Larkspur Retail Group shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+INSURANCE
+Vendor will carry cyber coverage of at least 2 million dollars per incident.
+
+MISCELLANEOUS
+This Agreement is the entire agreement of the parties on its subject matter.
+The parties are independent contractors.

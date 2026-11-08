@@ -1,0 +1,21 @@
+ORDER FORM
+
+between Morrow Capital ("Customer") and Tessavel, Inc. ("Provider")
+Customer: Morrow Capital
+Order Number: OF-2026-103
+Subscription Term: twelve (12) months from the Order Start Date
+Payment Terms: Net 45
+Governing Agreement: Tessavel Master Subscription Agreement
+
+1. Payment
+1.1 Provider will invoice Morrow Capital annually in advance for the fees in each Order Form.
+1.2 Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+3. Renewal
+The Subscription Term will not renew automatically. Any renewal requires a new Order Form signed by both parties.
+
+4. Insurance
+Provider shall maintain, at its own expense, commercial general liability and cyber liability insurance with limits of not less than USD 2,000,000 per occurrence.
+
+5. Employees
+Neither party will recruit the other's personnel for twelve months after the last Order Form ends.

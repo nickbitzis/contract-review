@@ -1,0 +1,69 @@
+MASTER SERVICES AGREEMENT
+
+between Wexley Retail Group ("Customer") and Tessavel, Inc. ("Supplier")
+
+1. Definitions
+1.1 "Agreement" means this agreement between Supplier and Wexley Retail Group, including all Order Forms.
+1.2 "Fees" means the amounts payable under an Order Form.
+1.3 "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4 "Subscription Term" means the period stated in an Order Form.
+
+2. Data Protection
+2.1 Supplier shall process Wexley Retail Group Personal Data only on Wexley Retail Group's documented instructions.
+2.2 Supplier shall notify Wexley Retail Group of any Security Incident within twenty-four (24) hours of becoming aware of it.
+2.3 Supplier will notify Wexley Retail Group at least thirty (30) days before engaging a new subprocessor, and Wexley Retail Group may object on reasonable data protection grounds.
+2.4 In place of audits, Supplier will share third-party attestation reports, such as ISO 27001 certificates.
+
+3. Notices
+Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+4. Invoicing and Payment
+4.1 Supplier will invoice Wexley Retail Group annually in advance for the fees in each Order Form.
+4.2 Wexley Retail Group will remit payment no later than the sixtieth day following the invoice date.
+4.3 Overdue amounts accrue interest at the lesser of 1% per month or the highest rate permitted by law.
+4.4 Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+5. Force Majeure
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+6. Indemnity
+6.1 The parties will each protect the other against actions brought by outsiders asserting that the Services violate a third party's patent, copyright, or trade secret.
+6.2 The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+7. Term and Termination
+7.1 This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+7.2 Each Subscription Term will renew for an additional twelve (12) months unless a party notifies the other of its intent not to renew no later than 45 days prior to expiration.
+7.3 Either party may terminate this Agreement upon written notice if the other party materially breaches it and does not cure the breach within thirty (30) days after receiving notice of it.
+7.4 Wexley Retail Group may terminate this Agreement at any time, for any reason or no reason, by giving Supplier at least 30 days written notice.
+7.5 Upon termination, Wexley Retail Group shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+8. Confidentiality
+8.1 Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+8.2 These obligations continue indefinitely.
+
+10. Export Compliance
+Each party shall comply with applicable export control and sanctions laws.
+
+11. Warranties
+11.1 Supplier warrants that the Services will perform materially in accordance with the Documentation for six (6) months after the start of the Subscription Term.
+11.2 Supplier further warrants that the Services are fit for Wexley Retail Group's intended purpose.
+
+12. Choice of Law
+This Agreement is governed by the laws of the State of Delaware, without regard to its conflict of laws principles. The state and federal courts located in Wilmington, Delaware have exclusive jurisdiction.
+
+14. Support and Service Levels
+Supplier will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+15. Services
+Supplier will make the Services available to Wexley Retail Group during the Subscription Term in accordance with the Documentation.
+
+17. Limitation of Liability
+17.1 Except for the Excluded Claims, each party's aggregate liability arising out of or relating to this Agreement shall not exceed the fees paid or payable by Wexley Retail Group in the twelve (12) months preceding the event giving rise to the claim.
+17.2 Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+18. Assignment
+Neither party may assign this Agreement without the other party's prior written consent, except to a successor in a merger, acquisition, or sale of all or substantially all of its assets.
+
+19. Miscellaneous
+19.1 This Agreement is the entire agreement of the parties on its subject matter.
+19.2 The parties are independent contractors.

@@ -1,0 +1,63 @@
+MASTER SERVICES AGREEMENT
+
+between Halden Insurance ("Customer") and Tessavel, Inc. ("Provider")
+
+ARTICLE I - DEFINITIONS
+1.1 "Agreement" means this agreement between Provider and Halden Insurance, including all Order Forms.
+1.2 "Fees" means the amounts payable under an Order Form.
+1.3 "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4 "Subscription Term" means the period stated in an Order Form.
+
+ARTICLE II - CHOICE OF LAW
+2.1 This Agreement is governed by the laws of the State of New York, without regard to its conflict of laws principles. The state and federal courts located in New York County, New York have exclusive jurisdiction.
+
+ARTICLE III - INVOICING AND PAYMENT
+3.1 Provider will invoice Halden Insurance annually in advance for the fees in each Order Form.
+3.2 Halden Insurance shall pay all undisputed invoices within ninety (90) days of receipt.
+3.3 Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+ARTICLE IV - AUTOMATIC RENEWAL
+4.1 Each Subscription Term will renew for an additional twelve (12) months unless a party notifies the other of its intent not to renew no later than 15 days prior to expiration.
+
+ARTICLE V - TERMINATION
+5.1 This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+5.2 Either party may terminate this Agreement upon written notice if the other party materially breaches it and does not cure the breach within thirty (30) days after receiving notice of it.
+5.3 Upon termination, Halden Insurance shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+ARTICLE VI - REPRESENTATIONS AND WARRANTIES
+6.1 Provider warrants that the Services will perform materially in accordance with the Documentation for one hundred eighty (180) days after the start of the Subscription Term.
+6.2 THE SERVICES ARE PROVIDED WITHOUT ANY OTHER EXPRESS OR IMPLIED GUARANTEES, INCLUDING SUITABILITY FOR A SPECIFIC USE.
+
+ARTICLE VII - INSURANCE
+7.1 Provider will carry cyber coverage of at least 10 million dollars per incident.
+
+ARTICLE VIII - SERVICES
+8.1 Provider will make the Services available to Halden Insurance during the Subscription Term in accordance with the Documentation.
+
+ARTICLE IX - FORCE MAJEURE
+9.1 Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+ARTICLE X - NOTICES
+10.1 Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+ARTICLE XI - THIRD-PARTY CLAIMS
+11.1 Provider shall defend, indemnify, and hold harmless Halden Insurance and its affiliates, officers, and employees from and against any and all claims, losses, liabilities, and expenses arising out of or relating to this Agreement or the Services, and shall pay all damages and costs finally awarded.
+11.2 The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+ARTICLE XII - NON-SOLICITATION
+12.1 During the term of this Agreement and for six (6) months thereafter, neither party shall solicit for employment any employee of the other party who worked on the Services.
+
+ARTICLE XIII - CONFIDENTIALITY
+13.1 Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+13.2 The duty of secrecy lasts three years beyond expiry.
+
+ARTICLE XIV - LIMITATION OF LIABILITY
+14.1 In no event will either party's total liability under this Agreement exceed two times (2x) the annual fees payable under this Agreement.
+14.2 Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+ARTICLE XV - TERMINATION FOR CONVENIENCE
+15.1 Halden Insurance may terminate this Agreement at any time, for any reason or no reason, by giving Provider at least 60 days written notice.
+
+ARTICLE XVI - MISCELLANEOUS
+16.1 This Agreement is the entire agreement of the parties on its subject matter.
+16.2 The parties are independent contractors.

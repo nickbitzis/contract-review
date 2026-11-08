@@ -1,0 +1,76 @@
+MASTER SERVICES AGREEMENT
+
+between Morrow Logistics ("Customer") and Tessavel, Inc. ("Vendor")
+
+1. Definitions
+1.1 "Agreement" means this agreement between Vendor and Morrow Logistics, including all Order Forms.
+1.2 "Fees" means the amounts payable under an Order Form.
+1.3 "Security Incident" means unauthorized access to Customer Personal Data in the Services.
+1.4 "Subscription Term" means the period stated in an Order Form.
+
+2. Confidentiality
+2.1 Each party may disclose Confidential Information to the other. The receiving party shall use it only to perform this Agreement and shall protect it with at least reasonable care.
+2.2 These obligations apply for a period of 3 years from the date of disclosure.
+
+4. Export Compliance
+Each party shall comply with applicable export control and sanctions laws.
+
+5. Publicity
+Vendor may name Morrow Logistics as a customer with Morrow Logistics' prior written approval.
+
+7. Notices
+Notices must be in writing and are deemed received two (2) days after mailing or on delivery by email.
+
+9. Services
+Vendor will make the Services available to Morrow Logistics during the Subscription Term in accordance with the Documentation.
+
+10. Assignment
+No party may transfer its rights or duties under this Agreement without written approval, though either party may do so to an entity that acquires its business.
+
+11. Limitation of Liability
+11.1 Except for the Excluded Claims, each party's aggregate liability arising out of or relating to this Agreement shall not exceed the fees paid or payable by Morrow Logistics in the twenty-four (24) months preceding the event giving rise to the claim.
+11.2 Neither party is liable for any indirect, incidental, special, or consequential damages, including lost profits, even if advised of their possibility.
+
+12. Term and Termination
+12.1 This Agreement begins on the Effective Date and continues until all Order Forms under it have expired or been terminated.
+12.2 Each Subscription Term will renew for an additional twelve (12) months unless a party notifies the other of its intent not to renew no later than 30 days prior to expiration.
+12.3 If one party seriously fails to perform and has not corrected the failure within 30 days after being told about it, the other party may end this Agreement.
+12.4 Neither party may terminate this Agreement for convenience.
+12.5 Upon termination, Morrow Logistics shall pay all fees accrued through the effective date of termination, and each party shall return the other party's Confidential Information.
+
+13. Force Majeure
+Neither party is liable for delays caused by events beyond its reasonable control. If such an event lasts more than thirty (30) days, either party may end the affected Order Form.
+
+15. Indemnification
+15.1 Each party (the "Indemnifying Party") shall defend and hold harmless the other party from and against any third-party claim alleging that the Services infringe or misappropriate any patent, copyright, trademark, or trade secret, and shall pay all damages and costs finally awarded.
+15.2 The indemnified party shall give prompt written notice of the claim, sole control of the defense, and reasonable cooperation at the indemnifying party's expense.
+
+17. Support and Service Levels
+Vendor will respond to Severity 1 issues within four (4) hours and to Severity 2 issues within one (1) business day.
+
+18. Data Protection
+18.1 Vendor shall process Morrow Logistics Personal Data only on Morrow Logistics' documented instructions.
+18.2 Vendor shall notify Morrow Logistics of any Security Incident within one (1) business day of becoming aware of it.
+18.3 Vendor will notify Morrow Logistics at least thirty (30) days before engaging a new subprocessor, and Morrow Logistics may object on reasonable data protection grounds.
+18.4 Vendor will provide its most recent SOC 2 Type II report on request, no more than once per year.
+
+19. Payment
+19.1 Vendor will invoice Morrow Logistics annually in advance for the fees in each Order Form.
+19.2 Invoices are due and payable 30 days after Morrow Logistics receives them.
+19.3 Fees exclude taxes. Each party is responsible for the taxes imposed on it by law.
+
+20. Choice of Law
+This Agreement is governed by the laws of the State of New York, without regard to its conflict of laws principles. The state and federal courts located in New York County, New York have exclusive jurisdiction.
+
+22. Disclaimer
+EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, VENDOR MAKES NO OTHER WARRANTIES AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+23. Representations and Warranties
+Vendor stands behind the Services for a full year: if they do not work as documented, Vendor will fix them.
+
+25. No Hire
+During the term of this Agreement and for six (6) months thereafter, neither party shall solicit for employment any employee of the other party who worked on the Services.
+
+26. Miscellaneous
+26.1 This Agreement is the entire agreement of the parties on its subject matter.
+26.2 The parties are independent contractors.
